@@ -1,0 +1,962 @@
+[
+ {
+  "verifier": "minicheck_deberta_v3_large",
+  "edit": "modal_strengthen",
+  "Q3": "no",
+  "n": 78,
+  "rejected_sentence": 56,
+  "flipped_to_accepted_with_abstract": 43
+ },
+ {
+  "verifier": "minicheck_deberta_v3_large",
+  "edit": "modal_strengthen",
+  "Q3": "yes",
+  "n": 2,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "minicheck_deberta_v3_large",
+  "edit": "report_verb_upgrade",
+  "Q3": "no",
+  "n": 11,
+  "rejected_sentence": 4,
+  "flipped_to_accepted_with_abstract": 4
+ },
+ {
+  "verifier": "minicheck_deberta_v3_large",
+  "edit": "report_verb_upgrade",
+  "Q3": "yes",
+  "n": 65,
+  "rejected_sentence": 13,
+  "flipped_to_accepted_with_abstract": 11
+ },
+ {
+  "verifier": "minicheck_deberta_v3_large",
+  "edit": "hedge_adverb_drop",
+  "Q3": "no",
+  "n": 29,
+  "rejected_sentence": 7,
+  "flipped_to_accepted_with_abstract": 7
+ },
+ {
+  "verifier": "minicheck_deberta_v3_large",
+  "edit": "hedge_adverb_drop",
+  "Q3": "yes",
+  "n": 1,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "minicheck_deberta_v3_large",
+  "edit": "causal_upgrade",
+  "Q3": "no",
+  "n": 15,
+  "rejected_sentence": 1,
+  "flipped_to_accepted_with_abstract": 1
+ },
+ {
+  "verifier": "minicheck_deberta_v3_large",
+  "edit": "causal_upgrade",
+  "Q3": "yes",
+  "n": 0,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "minicheck_deberta_v3_large",
+  "edit": "scope_drop",
+  "Q3": "no",
+  "n": 26,
+  "rejected_sentence": 2,
+  "flipped_to_accepted_with_abstract": 2
+ },
+ {
+  "verifier": "minicheck_deberta_v3_large",
+  "edit": "scope_drop",
+  "Q3": "yes",
+  "n": 6,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "minicheck_deberta_v3_large",
+  "edit": "quantifier_inflate",
+  "Q3": "no",
+  "n": 23,
+  "rejected_sentence": 22,
+  "flipped_to_accepted_with_abstract": 1
+ },
+ {
+  "verifier": "minicheck_deberta_v3_large",
+  "edit": "quantifier_inflate",
+  "Q3": "yes",
+  "n": 0,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "nli_deberta_v3_large",
+  "edit": "modal_strengthen",
+  "Q3": "no",
+  "n": 78,
+  "rejected_sentence": 75,
+  "flipped_to_accepted_with_abstract": 14
+ },
+ {
+  "verifier": "nli_deberta_v3_large",
+  "edit": "modal_strengthen",
+  "Q3": "yes",
+  "n": 2,
+  "rejected_sentence": 1,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "nli_deberta_v3_large",
+  "edit": "report_verb_upgrade",
+  "Q3": "no",
+  "n": 11,
+  "rejected_sentence": 11,
+  "flipped_to_accepted_with_abstract": 3
+ },
+ {
+  "verifier": "nli_deberta_v3_large",
+  "edit": "report_verb_upgrade",
+  "Q3": "yes",
+  "n": 65,
+  "rejected_sentence": 62,
+  "flipped_to_accepted_with_abstract": 24
+ },
+ {
+  "verifier": "nli_deberta_v3_large",
+  "edit": "hedge_adverb_drop",
+  "Q3": "no",
+  "n": 29,
+  "rejected_sentence": 21,
+  "flipped_to_accepted_with_abstract": 14
+ },
+ {
+  "verifier": "nli_deberta_v3_large",
+  "edit": "hedge_adverb_drop",
+  "Q3": "yes",
+  "n": 1,
+  "rejected_sentence": 1,
+  "flipped_to_accepted_with_abstract": 1
+ },
+ {
+  "verifier": "nli_deberta_v3_large",
+  "edit": "causal_upgrade",
+  "Q3": "no",
+  "n": 15,
+  "rejected_sentence": 9,
+  "flipped_to_accepted_with_abstract": 5
+ },
+ {
+  "verifier": "nli_deberta_v3_large",
+  "edit": "causal_upgrade",
+  "Q3": "yes",
+  "n": 0,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "nli_deberta_v3_large",
+  "edit": "scope_drop",
+  "Q3": "no",
+  "n": 26,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "nli_deberta_v3_large",
+  "edit": "scope_drop",
+  "Q3": "yes",
+  "n": 6,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "nli_deberta_v3_large",
+  "edit": "quantifier_inflate",
+  "Q3": "no",
+  "n": 23,
+  "rejected_sentence": 23,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "nli_deberta_v3_large",
+  "edit": "quantifier_inflate",
+  "Q3": "yes",
+  "n": 0,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "nli_deberta_v3_base",
+  "edit": "modal_strengthen",
+  "Q3": "no",
+  "n": 78,
+  "rejected_sentence": 58,
+  "flipped_to_accepted_with_abstract": 2
+ },
+ {
+  "verifier": "nli_deberta_v3_base",
+  "edit": "modal_strengthen",
+  "Q3": "yes",
+  "n": 2,
+  "rejected_sentence": 1,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "nli_deberta_v3_base",
+  "edit": "report_verb_upgrade",
+  "Q3": "no",
+  "n": 11,
+  "rejected_sentence": 1,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "nli_deberta_v3_base",
+  "edit": "report_verb_upgrade",
+  "Q3": "yes",
+  "n": 65,
+  "rejected_sentence": 3,
+  "flipped_to_accepted_with_abstract": 2
+ },
+ {
+  "verifier": "nli_deberta_v3_base",
+  "edit": "hedge_adverb_drop",
+  "Q3": "no",
+  "n": 29,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "nli_deberta_v3_base",
+  "edit": "hedge_adverb_drop",
+  "Q3": "yes",
+  "n": 1,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "nli_deberta_v3_base",
+  "edit": "causal_upgrade",
+  "Q3": "no",
+  "n": 15,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "nli_deberta_v3_base",
+  "edit": "causal_upgrade",
+  "Q3": "yes",
+  "n": 0,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "nli_deberta_v3_base",
+  "edit": "scope_drop",
+  "Q3": "no",
+  "n": 26,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "nli_deberta_v3_base",
+  "edit": "scope_drop",
+  "Q3": "yes",
+  "n": 6,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "nli_deberta_v3_base",
+  "edit": "quantifier_inflate",
+  "Q3": "no",
+  "n": 23,
+  "rejected_sentence": 23,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "nli_deberta_v3_base",
+  "edit": "quantifier_inflate",
+  "Q3": "yes",
+  "n": 0,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "minicheck_roberta_large",
+  "edit": "modal_strengthen",
+  "Q3": "no",
+  "n": 78,
+  "rejected_sentence": 56,
+  "flipped_to_accepted_with_abstract": 54
+ },
+ {
+  "verifier": "minicheck_roberta_large",
+  "edit": "modal_strengthen",
+  "Q3": "yes",
+  "n": 2,
+  "rejected_sentence": 1,
+  "flipped_to_accepted_with_abstract": 1
+ },
+ {
+  "verifier": "minicheck_roberta_large",
+  "edit": "report_verb_upgrade",
+  "Q3": "no",
+  "n": 11,
+  "rejected_sentence": 1,
+  "flipped_to_accepted_with_abstract": 1
+ },
+ {
+  "verifier": "minicheck_roberta_large",
+  "edit": "report_verb_upgrade",
+  "Q3": "yes",
+  "n": 65,
+  "rejected_sentence": 3,
+  "flipped_to_accepted_with_abstract": 2
+ },
+ {
+  "verifier": "minicheck_roberta_large",
+  "edit": "hedge_adverb_drop",
+  "Q3": "no",
+  "n": 29,
+  "rejected_sentence": 11,
+  "flipped_to_accepted_with_abstract": 9
+ },
+ {
+  "verifier": "minicheck_roberta_large",
+  "edit": "hedge_adverb_drop",
+  "Q3": "yes",
+  "n": 1,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "minicheck_roberta_large",
+  "edit": "causal_upgrade",
+  "Q3": "no",
+  "n": 15,
+  "rejected_sentence": 3,
+  "flipped_to_accepted_with_abstract": 3
+ },
+ {
+  "verifier": "minicheck_roberta_large",
+  "edit": "causal_upgrade",
+  "Q3": "yes",
+  "n": 0,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "minicheck_roberta_large",
+  "edit": "scope_drop",
+  "Q3": "no",
+  "n": 26,
+  "rejected_sentence": 2,
+  "flipped_to_accepted_with_abstract": 2
+ },
+ {
+  "verifier": "minicheck_roberta_large",
+  "edit": "scope_drop",
+  "Q3": "yes",
+  "n": 6,
+  "rejected_sentence": 2,
+  "flipped_to_accepted_with_abstract": 2
+ },
+ {
+  "verifier": "minicheck_roberta_large",
+  "edit": "quantifier_inflate",
+  "Q3": "no",
+  "n": 23,
+  "rejected_sentence": 23,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "minicheck_roberta_large",
+  "edit": "quantifier_inflate",
+  "Q3": "yes",
+  "n": 0,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "qwen3_4b_instruct_2507__generic",
+  "edit": "modal_strengthen",
+  "Q3": "no",
+  "n": 78,
+  "rejected_sentence": 3,
+  "flipped_to_accepted_with_abstract": 2
+ },
+ {
+  "verifier": "qwen3_4b_instruct_2507__generic",
+  "edit": "modal_strengthen",
+  "Q3": "yes",
+  "n": 2,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "qwen3_4b_instruct_2507__generic",
+  "edit": "report_verb_upgrade",
+  "Q3": "no",
+  "n": 11,
+  "rejected_sentence": 3,
+  "flipped_to_accepted_with_abstract": 3
+ },
+ {
+  "verifier": "qwen3_4b_instruct_2507__generic",
+  "edit": "report_verb_upgrade",
+  "Q3": "yes",
+  "n": 65,
+  "rejected_sentence": 28,
+  "flipped_to_accepted_with_abstract": 23
+ },
+ {
+  "verifier": "qwen3_4b_instruct_2507__generic",
+  "edit": "hedge_adverb_drop",
+  "Q3": "no",
+  "n": 29,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "qwen3_4b_instruct_2507__generic",
+  "edit": "hedge_adverb_drop",
+  "Q3": "yes",
+  "n": 1,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "qwen3_4b_instruct_2507__generic",
+  "edit": "causal_upgrade",
+  "Q3": "no",
+  "n": 15,
+  "rejected_sentence": 7,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "qwen3_4b_instruct_2507__generic",
+  "edit": "causal_upgrade",
+  "Q3": "yes",
+  "n": 0,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "qwen3_4b_instruct_2507__generic",
+  "edit": "scope_drop",
+  "Q3": "no",
+  "n": 26,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "qwen3_4b_instruct_2507__generic",
+  "edit": "scope_drop",
+  "Q3": "yes",
+  "n": 6,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "qwen3_4b_instruct_2507__generic",
+  "edit": "quantifier_inflate",
+  "Q3": "no",
+  "n": 23,
+  "rejected_sentence": 23,
+  "flipped_to_accepted_with_abstract": 4
+ },
+ {
+  "verifier": "qwen3_4b_instruct_2507__generic",
+  "edit": "quantifier_inflate",
+  "Q3": "yes",
+  "n": 0,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "qwen3_4b_instruct_2507__strength",
+  "edit": "modal_strengthen",
+  "Q3": "no",
+  "n": 78,
+  "rejected_sentence": 5,
+  "flipped_to_accepted_with_abstract": 3
+ },
+ {
+  "verifier": "qwen3_4b_instruct_2507__strength",
+  "edit": "modal_strengthen",
+  "Q3": "yes",
+  "n": 2,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "qwen3_4b_instruct_2507__strength",
+  "edit": "report_verb_upgrade",
+  "Q3": "no",
+  "n": 11,
+  "rejected_sentence": 3,
+  "flipped_to_accepted_with_abstract": 3
+ },
+ {
+  "verifier": "qwen3_4b_instruct_2507__strength",
+  "edit": "report_verb_upgrade",
+  "Q3": "yes",
+  "n": 65,
+  "rejected_sentence": 35,
+  "flipped_to_accepted_with_abstract": 28
+ },
+ {
+  "verifier": "qwen3_4b_instruct_2507__strength",
+  "edit": "hedge_adverb_drop",
+  "Q3": "no",
+  "n": 29,
+  "rejected_sentence": 1,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "qwen3_4b_instruct_2507__strength",
+  "edit": "hedge_adverb_drop",
+  "Q3": "yes",
+  "n": 1,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "qwen3_4b_instruct_2507__strength",
+  "edit": "causal_upgrade",
+  "Q3": "no",
+  "n": 15,
+  "rejected_sentence": 9,
+  "flipped_to_accepted_with_abstract": 2
+ },
+ {
+  "verifier": "qwen3_4b_instruct_2507__strength",
+  "edit": "causal_upgrade",
+  "Q3": "yes",
+  "n": 0,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "qwen3_4b_instruct_2507__strength",
+  "edit": "scope_drop",
+  "Q3": "no",
+  "n": 26,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "qwen3_4b_instruct_2507__strength",
+  "edit": "scope_drop",
+  "Q3": "yes",
+  "n": 6,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "qwen3_4b_instruct_2507__strength",
+  "edit": "quantifier_inflate",
+  "Q3": "no",
+  "n": 23,
+  "rejected_sentence": 23,
+  "flipped_to_accepted_with_abstract": 4
+ },
+ {
+  "verifier": "qwen3_4b_instruct_2507__strength",
+  "edit": "quantifier_inflate",
+  "Q3": "yes",
+  "n": 0,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "qwen3_7_max__strength",
+  "edit": "modal_strengthen",
+  "Q3": "no",
+  "n": 78,
+  "rejected_sentence": 78,
+  "flipped_to_accepted_with_abstract": 5
+ },
+ {
+  "verifier": "qwen3_7_max__strength",
+  "edit": "modal_strengthen",
+  "Q3": "yes",
+  "n": 2,
+  "rejected_sentence": 2,
+  "flipped_to_accepted_with_abstract": 1
+ },
+ {
+  "verifier": "qwen3_7_max__strength",
+  "edit": "report_verb_upgrade",
+  "Q3": "no",
+  "n": 11,
+  "rejected_sentence": 9,
+  "flipped_to_accepted_with_abstract": 6
+ },
+ {
+  "verifier": "qwen3_7_max__strength",
+  "edit": "report_verb_upgrade",
+  "Q3": "yes",
+  "n": 65,
+  "rejected_sentence": 59,
+  "flipped_to_accepted_with_abstract": 27
+ },
+ {
+  "verifier": "qwen3_7_max__strength",
+  "edit": "hedge_adverb_drop",
+  "Q3": "no",
+  "n": 29,
+  "rejected_sentence": 21,
+  "flipped_to_accepted_with_abstract": 7
+ },
+ {
+  "verifier": "qwen3_7_max__strength",
+  "edit": "hedge_adverb_drop",
+  "Q3": "yes",
+  "n": 1,
+  "rejected_sentence": 1,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "qwen3_7_max__strength",
+  "edit": "causal_upgrade",
+  "Q3": "no",
+  "n": 15,
+  "rejected_sentence": 14,
+  "flipped_to_accepted_with_abstract": 1
+ },
+ {
+  "verifier": "qwen3_7_max__strength",
+  "edit": "causal_upgrade",
+  "Q3": "yes",
+  "n": 0,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "qwen3_7_max__strength",
+  "edit": "scope_drop",
+  "Q3": "no",
+  "n": 26,
+  "rejected_sentence": 4,
+  "flipped_to_accepted_with_abstract": 4
+ },
+ {
+  "verifier": "qwen3_7_max__strength",
+  "edit": "scope_drop",
+  "Q3": "yes",
+  "n": 6,
+  "rejected_sentence": 3,
+  "flipped_to_accepted_with_abstract": 3
+ },
+ {
+  "verifier": "qwen3_7_max__strength",
+  "edit": "quantifier_inflate",
+  "Q3": "no",
+  "n": 23,
+  "rejected_sentence": 23,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "qwen3_7_max__strength",
+  "edit": "quantifier_inflate",
+  "Q3": "yes",
+  "n": 0,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "qwen3_7_max__generic",
+  "edit": "modal_strengthen",
+  "Q3": "no",
+  "n": 78,
+  "rejected_sentence": 52,
+  "flipped_to_accepted_with_abstract": 27
+ },
+ {
+  "verifier": "qwen3_7_max__generic",
+  "edit": "modal_strengthen",
+  "Q3": "yes",
+  "n": 2,
+  "rejected_sentence": 1,
+  "flipped_to_accepted_with_abstract": 1
+ },
+ {
+  "verifier": "qwen3_7_max__generic",
+  "edit": "report_verb_upgrade",
+  "Q3": "no",
+  "n": 11,
+  "rejected_sentence": 3,
+  "flipped_to_accepted_with_abstract": 2
+ },
+ {
+  "verifier": "qwen3_7_max__generic",
+  "edit": "report_verb_upgrade",
+  "Q3": "yes",
+  "n": 65,
+  "rejected_sentence": 15,
+  "flipped_to_accepted_with_abstract": 10
+ },
+ {
+  "verifier": "qwen3_7_max__generic",
+  "edit": "hedge_adverb_drop",
+  "Q3": "no",
+  "n": 29,
+  "rejected_sentence": 6,
+  "flipped_to_accepted_with_abstract": 3
+ },
+ {
+  "verifier": "qwen3_7_max__generic",
+  "edit": "hedge_adverb_drop",
+  "Q3": "yes",
+  "n": 1,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "qwen3_7_max__generic",
+  "edit": "causal_upgrade",
+  "Q3": "no",
+  "n": 15,
+  "rejected_sentence": 11,
+  "flipped_to_accepted_with_abstract": 4
+ },
+ {
+  "verifier": "qwen3_7_max__generic",
+  "edit": "causal_upgrade",
+  "Q3": "yes",
+  "n": 0,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "qwen3_7_max__generic",
+  "edit": "scope_drop",
+  "Q3": "no",
+  "n": 26,
+  "rejected_sentence": 1,
+  "flipped_to_accepted_with_abstract": 1
+ },
+ {
+  "verifier": "qwen3_7_max__generic",
+  "edit": "scope_drop",
+  "Q3": "yes",
+  "n": 6,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "qwen3_7_max__generic",
+  "edit": "quantifier_inflate",
+  "Q3": "no",
+  "n": 23,
+  "rejected_sentence": 23,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "qwen3_7_max__generic",
+  "edit": "quantifier_inflate",
+  "Q3": "yes",
+  "n": 0,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "deepseek_v4_pro__strength",
+  "edit": "modal_strengthen",
+  "Q3": "no",
+  "n": 78,
+  "rejected_sentence": 64,
+  "flipped_to_accepted_with_abstract": 24
+ },
+ {
+  "verifier": "deepseek_v4_pro__strength",
+  "edit": "modal_strengthen",
+  "Q3": "yes",
+  "n": 2,
+  "rejected_sentence": 1,
+  "flipped_to_accepted_with_abstract": 1
+ },
+ {
+  "verifier": "deepseek_v4_pro__strength",
+  "edit": "report_verb_upgrade",
+  "Q3": "no",
+  "n": 11,
+  "rejected_sentence": 6,
+  "flipped_to_accepted_with_abstract": 4
+ },
+ {
+  "verifier": "deepseek_v4_pro__strength",
+  "edit": "report_verb_upgrade",
+  "Q3": "yes",
+  "n": 65,
+  "rejected_sentence": 48,
+  "flipped_to_accepted_with_abstract": 30
+ },
+ {
+  "verifier": "deepseek_v4_pro__strength",
+  "edit": "hedge_adverb_drop",
+  "Q3": "no",
+  "n": 29,
+  "rejected_sentence": 8,
+  "flipped_to_accepted_with_abstract": 7
+ },
+ {
+  "verifier": "deepseek_v4_pro__strength",
+  "edit": "hedge_adverb_drop",
+  "Q3": "yes",
+  "n": 1,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "deepseek_v4_pro__strength",
+  "edit": "causal_upgrade",
+  "Q3": "no",
+  "n": 15,
+  "rejected_sentence": 14,
+  "flipped_to_accepted_with_abstract": 3
+ },
+ {
+  "verifier": "deepseek_v4_pro__strength",
+  "edit": "causal_upgrade",
+  "Q3": "yes",
+  "n": 0,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "deepseek_v4_pro__strength",
+  "edit": "scope_drop",
+  "Q3": "no",
+  "n": 26,
+  "rejected_sentence": 4,
+  "flipped_to_accepted_with_abstract": 4
+ },
+ {
+  "verifier": "deepseek_v4_pro__strength",
+  "edit": "scope_drop",
+  "Q3": "yes",
+  "n": 6,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "deepseek_v4_pro__strength",
+  "edit": "quantifier_inflate",
+  "Q3": "no",
+  "n": 23,
+  "rejected_sentence": 23,
+  "flipped_to_accepted_with_abstract": 1
+ },
+ {
+  "verifier": "deepseek_v4_pro__strength",
+  "edit": "quantifier_inflate",
+  "Q3": "yes",
+  "n": 0,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "deepseek_v4_pro__generic",
+  "edit": "modal_strengthen",
+  "Q3": "no",
+  "n": 78,
+  "rejected_sentence": 32,
+  "flipped_to_accepted_with_abstract": 16
+ },
+ {
+  "verifier": "deepseek_v4_pro__generic",
+  "edit": "modal_strengthen",
+  "Q3": "yes",
+  "n": 2,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "deepseek_v4_pro__generic",
+  "edit": "report_verb_upgrade",
+  "Q3": "no",
+  "n": 11,
+  "rejected_sentence": 3,
+  "flipped_to_accepted_with_abstract": 2
+ },
+ {
+  "verifier": "deepseek_v4_pro__generic",
+  "edit": "report_verb_upgrade",
+  "Q3": "yes",
+  "n": 65,
+  "rejected_sentence": 25,
+  "flipped_to_accepted_with_abstract": 17
+ },
+ {
+  "verifier": "deepseek_v4_pro__generic",
+  "edit": "hedge_adverb_drop",
+  "Q3": "no",
+  "n": 29,
+  "rejected_sentence": 4,
+  "flipped_to_accepted_with_abstract": 3
+ },
+ {
+  "verifier": "deepseek_v4_pro__generic",
+  "edit": "hedge_adverb_drop",
+  "Q3": "yes",
+  "n": 1,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "deepseek_v4_pro__generic",
+  "edit": "causal_upgrade",
+  "Q3": "no",
+  "n": 15,
+  "rejected_sentence": 12,
+  "flipped_to_accepted_with_abstract": 5
+ },
+ {
+  "verifier": "deepseek_v4_pro__generic",
+  "edit": "causal_upgrade",
+  "Q3": "yes",
+  "n": 0,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "deepseek_v4_pro__generic",
+  "edit": "scope_drop",
+  "Q3": "no",
+  "n": 26,
+  "rejected_sentence": 2,
+  "flipped_to_accepted_with_abstract": 2
+ },
+ {
+  "verifier": "deepseek_v4_pro__generic",
+  "edit": "scope_drop",
+  "Q3": "yes",
+  "n": 6,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ },
+ {
+  "verifier": "deepseek_v4_pro__generic",
+  "edit": "quantifier_inflate",
+  "Q3": "no",
+  "n": 23,
+  "rejected_sentence": 23,
+  "flipped_to_accepted_with_abstract": 1
+ },
+ {
+  "verifier": "deepseek_v4_pro__generic",
+  "edit": "quantifier_inflate",
+  "Q3": "yes",
+  "n": 0,
+  "rejected_sentence": 0,
+  "flipped_to_accepted_with_abstract": 0
+ }
+]

@@ -1,0 +1,2220 @@
+{
+  "phase": "pilot",
+  "sample_per_premise": 50,
+  "models": {
+    "minicheck_roberta_large": {
+      "checkpoint": "74c8919647e61ed0f71bc177d94f10930f090068",
+      "rows": [
+        {
+          "key": [
+            27615329,
+            "negate",
+            "sentence"
+          ],
+          "upstream": 0.15578484535217285,
+          "replay": 0.15584777295589447,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            17933691,
+            "report_verb_upgrade",
+            "sentence"
+          ],
+          "upstream": 0.5915995836257935,
+          "replay": 0.5921655297279358,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            43334921,
+            "negate",
+            "sentence"
+          ],
+          "upstream": 0.3458898067474365,
+          "replay": 0.3459886312484741,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            57783564,
+            "report_verb_upgrade",
+            "sentence"
+          ],
+          "upstream": 0.6512076258659363,
+          "replay": 0.6513755917549133,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            7506409,
+            "negate",
+            "sentence"
+          ],
+          "upstream": 0.2554657757282257,
+          "replay": 0.2550652325153351,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            14252892,
+            "identity",
+            "sentence"
+          ],
+          "upstream": 0.9859179854393005,
+          "replay": 0.9859228134155273,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            4889228,
+            "weaken",
+            "sentence"
+          ],
+          "upstream": 0.39674150943756104,
+          "replay": 0.39716729521751404,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            33723822,
+            "negate",
+            "sentence"
+          ],
+          "upstream": 0.12851282954216003,
+          "replay": 0.12836116552352905,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            2494748,
+            "identity",
+            "sentence"
+          ],
+          "upstream": 0.9859469532966614,
+          "replay": 0.9859499335289001,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            22036571,
+            "report_verb_upgrade",
+            "sentence"
+          ],
+          "upstream": 0.7459043264389038,
+          "replay": 0.7462314367294312,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            4388470,
+            "identity",
+            "sentence"
+          ],
+          "upstream": 0.9851506352424622,
+          "replay": 0.9851289987564087,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            10247282,
+            "scope_drop",
+            "sentence"
+          ],
+          "upstream": 0.5397853851318359,
+          "replay": 0.5400143265724182,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            21767325,
+            "report_verb_upgrade",
+            "sentence"
+          ],
+          "upstream": 0.624023973941803,
+          "replay": 0.6243221759796143,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            26611094,
+            "negate",
+            "sentence"
+          ],
+          "upstream": 0.13153450191020966,
+          "replay": 0.13134026527404785,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            8596357,
+            "identity",
+            "sentence"
+          ],
+          "upstream": 0.9849222302436829,
+          "replay": 0.9849274158477783,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            43334921,
+            "causal_upgrade",
+            "sentence"
+          ],
+          "upstream": 0.8846915364265442,
+          "replay": 0.8848875164985657,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            6407356,
+            "scope_drop",
+            "sentence"
+          ],
+          "upstream": 0.34804561734199524,
+          "replay": 0.3480355143547058,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            19315511,
+            "weaken",
+            "sentence"
+          ],
+          "upstream": 0.4900573492050171,
+          "replay": 0.4902355968952179,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            4550036,
+            "identity",
+            "sentence"
+          ],
+          "upstream": 0.9864411950111389,
+          "replay": 0.9864547252655029,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            11616424,
+            "negate",
+            "sentence"
+          ],
+          "upstream": 0.23325040936470032,
+          "replay": 0.23305116593837738,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            2682251,
+            "weaken",
+            "sentence"
+          ],
+          "upstream": 0.8230432271957397,
+          "replay": 0.8235413432121277,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            9167230,
+            "negate",
+            "sentence"
+          ],
+          "upstream": 0.22199688851833344,
+          "replay": 0.22202469408512115,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            35271381,
+            "modal_strengthen",
+            "sentence"
+          ],
+          "upstream": 0.5131052136421204,
+          "replay": 0.5134245157241821,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            3623127,
+            "negate",
+            "sentence"
+          ],
+          "upstream": 0.22403234243392944,
+          "replay": 0.2240554690361023,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            25148216,
+            "identity",
+            "sentence"
+          ],
+          "upstream": 0.9835227131843567,
+          "replay": 0.9835337996482849,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            24625323,
+            "weaken",
+            "sentence"
+          ],
+          "upstream": 0.6964827179908752,
+          "replay": 0.6961907148361206,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            38873881,
+            "negate",
+            "sentence"
+          ],
+          "upstream": 0.22727839648723602,
+          "replay": 0.22729778289794922,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            21246752,
+            "identity",
+            "sentence"
+          ],
+          "upstream": 0.9841648936271667,
+          "replay": 0.9841698408126831,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            26117607,
+            "negate",
+            "sentence"
+          ],
+          "upstream": 0.14494311809539795,
+          "replay": 0.14475229382514954,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            42662816,
+            "weaken",
+            "sentence"
+          ],
+          "upstream": 0.5918933749198914,
+          "replay": 0.5923129320144653,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            21878751,
+            "identity",
+            "sentence"
+          ],
+          "upstream": 0.9860327839851379,
+          "replay": 0.9860308170318604,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            2158516,
+            "negate",
+            "sentence"
+          ],
+          "upstream": 0.19773046672344208,
+          "replay": 0.19759926199913025,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            2601135,
+            "identity",
+            "sentence"
+          ],
+          "upstream": 0.9859254956245422,
+          "replay": 0.9859364032745361,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            19752008,
+            "weaken",
+            "sentence"
+          ],
+          "upstream": 0.5797753930091858,
+          "replay": 0.5795788764953613,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            7506409,
+            "identity",
+            "sentence"
+          ],
+          "upstream": 0.9860594868659973,
+          "replay": 0.986057698726654,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            31208367,
+            "negate",
+            "sentence"
+          ],
+          "upstream": 0.2511862516403198,
+          "replay": 0.25123411417007446,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            38551172,
+            "identity",
+            "sentence"
+          ],
+          "upstream": 0.9837056398391724,
+          "replay": 0.9837069511413574,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            30041340,
+            "identity",
+            "sentence"
+          ],
+          "upstream": 0.9858701229095459,
+          "replay": 0.9858549237251282,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            10145528,
+            "weaken",
+            "sentence"
+          ],
+          "upstream": 0.4786391854286194,
+          "replay": 0.4784679412841797,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            7581911,
+            "identity",
+            "sentence"
+          ],
+          "upstream": 0.9854974150657654,
+          "replay": 0.985496461391449,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            5735492,
+            "identity",
+            "sentence"
+          ],
+          "upstream": 0.9859998822212219,
+          "replay": 0.9859904050827026,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            9752604,
+            "scope_drop",
+            "sentence"
+          ],
+          "upstream": 0.6250330805778503,
+          "replay": 0.6252522468566895,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            19673227,
+            "modal_strengthen",
+            "sentence"
+          ],
+          "upstream": 0.3643181324005127,
+          "replay": 0.3645901679992676,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            10145528,
+            "negate",
+            "sentence"
+          ],
+          "upstream": 0.09739932417869568,
+          "replay": 0.09751924872398376,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            8246090,
+            "weaken",
+            "sentence"
+          ],
+          "upstream": 0.7160811424255371,
+          "replay": 0.7161193490028381,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            5839365,
+            "negate",
+            "sentence"
+          ],
+          "upstream": 0.17837916314601898,
+          "replay": 0.17838266491889954,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            26907074,
+            "identity",
+            "sentence"
+          ],
+          "upstream": 0.9863680005073547,
+          "replay": 0.9863499999046326,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            25725663,
+            "weaken",
+            "sentence"
+          ],
+          "upstream": 0.2394949048757553,
+          "replay": 0.23877201974391937,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            21767325,
+            "hedge_adverb_drop",
+            "sentence"
+          ],
+          "upstream": 0.838651716709137,
+          "replay": 0.8385475873947144,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            9167230,
+            "report_verb_upgrade",
+            "sentence"
+          ],
+          "upstream": 0.7104963064193726,
+          "replay": 0.7108290791511536,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            22547508,
+            "identity",
+            "abstract"
+          ],
+          "upstream": 0.9838863611221313,
+          "replay": 0.9838626980781555,
+          "agree": true,
+          "chunks": 2
+        },
+        {
+          "key": [
+            6171953,
+            "negate",
+            "abstract"
+          ],
+          "upstream": 0.056690771132707596,
+          "replay": 0.05665242671966553,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            5774746,
+            "weaken",
+            "abstract"
+          ],
+          "upstream": 0.7951027154922485,
+          "replay": 0.7947037816047668,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            22871664,
+            "hedge_adverb_drop",
+            "abstract"
+          ],
+          "upstream": 0.8437823057174683,
+          "replay": 0.8449215292930603,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            26720366,
+            "identity",
+            "abstract"
+          ],
+          "upstream": 0.988035261631012,
+          "replay": 0.9880273342132568,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            5271210,
+            "identity",
+            "abstract"
+          ],
+          "upstream": 0.9855969548225403,
+          "replay": 0.985593855381012,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            28517384,
+            "weaken",
+            "abstract"
+          ],
+          "upstream": 0.9392240047454834,
+          "replay": 0.9389128684997559,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            20460020,
+            "identity",
+            "abstract"
+          ],
+          "upstream": 0.9860599040985107,
+          "replay": 0.9860442876815796,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            33723822,
+            "identity",
+            "abstract"
+          ],
+          "upstream": 0.9726735353469849,
+          "replay": 0.9726754426956177,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            4418112,
+            "scope_drop",
+            "abstract"
+          ],
+          "upstream": 0.9795414805412292,
+          "replay": 0.9795506000518799,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            13290521,
+            "negate",
+            "abstract"
+          ],
+          "upstream": 0.07598800212144852,
+          "replay": 0.07592666149139404,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            3619931,
+            "modal_strengthen",
+            "abstract"
+          ],
+          "upstream": 0.9118534922599792,
+          "replay": 0.9121626615524292,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            11659421,
+            "negate",
+            "abstract"
+          ],
+          "upstream": 0.0732632726430893,
+          "replay": 0.07333045452833176,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            19752008,
+            "modal_strengthen",
+            "abstract"
+          ],
+          "upstream": 0.9066257476806641,
+          "replay": 0.9066531658172607,
+          "agree": true,
+          "chunks": 2
+        },
+        {
+          "key": [
+            2380002,
+            "hedge_adverb_drop",
+            "abstract"
+          ],
+          "upstream": 0.9349811673164368,
+          "replay": 0.93475341796875,
+          "agree": true,
+          "chunks": 2
+        },
+        {
+          "key": [
+            14338915,
+            "identity",
+            "abstract"
+          ],
+          "upstream": 0.9003564715385437,
+          "replay": 0.8996956944465637,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            38882175,
+            "weaken",
+            "abstract"
+          ],
+          "upstream": 0.9390811324119568,
+          "replay": 0.9392480850219727,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            1542437,
+            "negate",
+            "abstract"
+          ],
+          "upstream": 0.09359750896692276,
+          "replay": 0.09347093105316162,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            14340571,
+            "identity",
+            "abstract"
+          ],
+          "upstream": 0.9509955644607544,
+          "replay": 0.9508692026138306,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            23912923,
+            "report_verb_upgrade",
+            "abstract"
+          ],
+          "upstream": 0.9734241366386414,
+          "replay": 0.973418116569519,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            13070316,
+            "quantifier_inflate",
+            "abstract"
+          ],
+          "upstream": 0.060875192284584045,
+          "replay": 0.06091928482055664,
+          "agree": true,
+          "chunks": 2
+        },
+        {
+          "key": [
+            26378103,
+            "modal_strengthen",
+            "abstract"
+          ],
+          "upstream": 0.9783719182014465,
+          "replay": 0.9783639311790466,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            26117607,
+            "modal_strengthen",
+            "abstract"
+          ],
+          "upstream": 0.5011339783668518,
+          "replay": 0.5018310546875,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            10765888,
+            "negate",
+            "abstract"
+          ],
+          "upstream": 0.07729573547840118,
+          "replay": 0.0772387832403183,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            19408393,
+            "weaken",
+            "abstract"
+          ],
+          "upstream": 0.7666199803352356,
+          "replay": 0.7657247185707092,
+          "agree": true,
+          "chunks": 2
+        },
+        {
+          "key": [
+            24396137,
+            "modal_strengthen",
+            "abstract"
+          ],
+          "upstream": 0.9500506520271301,
+          "replay": 0.9500414729118347,
+          "agree": true,
+          "chunks": 2
+        },
+        {
+          "key": [
+            9993008,
+            "identity",
+            "abstract"
+          ],
+          "upstream": 0.987337589263916,
+          "replay": 0.9873262047767639,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            24097933,
+            "negate",
+            "abstract"
+          ],
+          "upstream": 0.05127617344260216,
+          "replay": 0.05122493579983711,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            39550665,
+            "weaken",
+            "abstract"
+          ],
+          "upstream": 0.9902376532554626,
+          "replay": 0.990225613117218,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            13282296,
+            "identity",
+            "abstract"
+          ],
+          "upstream": 0.9831373691558838,
+          "replay": 0.9831337332725525,
+          "agree": true,
+          "chunks": 2
+        },
+        {
+          "key": [
+            23901235,
+            "negate",
+            "abstract"
+          ],
+          "upstream": 0.0864836722612381,
+          "replay": 0.08647764474153519,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            68317730,
+            "negate",
+            "abstract"
+          ],
+          "upstream": 0.0433986559510231,
+          "replay": 0.04332530498504639,
+          "agree": true,
+          "chunks": 2
+        },
+        {
+          "key": [
+            26089649,
+            "scope_drop",
+            "abstract"
+          ],
+          "upstream": 0.9806020259857178,
+          "replay": 0.9805992841720581,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            21216726,
+            "negate",
+            "abstract"
+          ],
+          "upstream": 0.08051904290914536,
+          "replay": 0.08057423681020737,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            13312471,
+            "modal_strengthen",
+            "abstract"
+          ],
+          "upstream": 0.5139546394348145,
+          "replay": 0.5144612789154053,
+          "agree": true,
+          "chunks": 2
+        },
+        {
+          "key": [
+            11616424,
+            "weaken",
+            "abstract"
+          ],
+          "upstream": 0.9682174324989319,
+          "replay": 0.9682314395904541,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            3619931,
+            "negate",
+            "abstract"
+          ],
+          "upstream": 0.07403663545846939,
+          "replay": 0.07392993569374084,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            24980622,
+            "weaken",
+            "abstract"
+          ],
+          "upstream": 0.7138141393661499,
+          "replay": 0.714652955532074,
+          "agree": true,
+          "chunks": 2
+        },
+        {
+          "key": [
+            25148216,
+            "scope_drop",
+            "abstract"
+          ],
+          "upstream": 0.9730008244514465,
+          "replay": 0.9729595184326172,
+          "agree": true,
+          "chunks": 2
+        },
+        {
+          "key": [
+            30041340,
+            "identity",
+            "abstract"
+          ],
+          "upstream": 0.9866145253181458,
+          "replay": 0.9866234660148621,
+          "agree": true,
+          "chunks": 2
+        },
+        {
+          "key": [
+            14340571,
+            "modal_strengthen",
+            "abstract"
+          ],
+          "upstream": 0.9161300659179688,
+          "replay": 0.9160721302032471,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            13771184,
+            "identity",
+            "abstract"
+          ],
+          "upstream": 0.9830948710441589,
+          "replay": 0.9831175804138184,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            2266471,
+            "weaken",
+            "abstract"
+          ],
+          "upstream": 0.7469220161437988,
+          "replay": 0.7467858195304871,
+          "agree": true,
+          "chunks": 2
+        },
+        {
+          "key": [
+            2506153,
+            "identity",
+            "abstract"
+          ],
+          "upstream": 0.98646080493927,
+          "replay": 0.9864417314529419,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            4325398,
+            "identity",
+            "abstract"
+          ],
+          "upstream": 0.9845176339149475,
+          "replay": 0.9845011234283447,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            7734150,
+            "scope_drop",
+            "abstract"
+          ],
+          "upstream": 0.9756076335906982,
+          "replay": 0.9756001234054565,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            30152134,
+            "weaken",
+            "abstract"
+          ],
+          "upstream": 0.9871130585670471,
+          "replay": 0.9870920181274414,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            14719322,
+            "identity",
+            "abstract"
+          ],
+          "upstream": 0.9625952839851379,
+          "replay": 0.9624620079994202,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            8814634,
+            "identity",
+            "abstract"
+          ],
+          "upstream": 0.9717373251914978,
+          "replay": 0.9716985821723938,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            6407356,
+            "scope_drop",
+            "abstract"
+          ],
+          "upstream": 0.9779732823371887,
+          "replay": 0.9779677391052246,
+          "agree": true,
+          "chunks": 1
+        }
+      ],
+      "agreement": 1.0,
+      "max_probability_difference": 0.001139223575592041
+    },
+    "minicheck_deberta_v3_large": {
+      "checkpoint": "2f2d01a54fa022a7ffadb76260e1ea8bc88c82bb",
+      "rows": [
+        {
+          "key": [
+            27615329,
+            "negate",
+            "sentence"
+          ],
+          "upstream": 0.035142868757247925,
+          "replay": 0.03517797589302063,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            17933691,
+            "report_verb_upgrade",
+            "sentence"
+          ],
+          "upstream": 0.8312814831733704,
+          "replay": 0.8318955302238464,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            43334921,
+            "negate",
+            "sentence"
+          ],
+          "upstream": 0.22112253308296204,
+          "replay": 0.2214348465204239,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            57783564,
+            "report_verb_upgrade",
+            "sentence"
+          ],
+          "upstream": 0.8540001511573792,
+          "replay": 0.8537908792495728,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            7506409,
+            "negate",
+            "sentence"
+          ],
+          "upstream": 0.1254863440990448,
+          "replay": 0.125600665807724,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            14252892,
+            "identity",
+            "sentence"
+          ],
+          "upstream": 0.7298992276191711,
+          "replay": 0.7301936745643616,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            4889228,
+            "weaken",
+            "sentence"
+          ],
+          "upstream": 0.6287859082221985,
+          "replay": 0.6286354064941406,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            33723822,
+            "negate",
+            "sentence"
+          ],
+          "upstream": 0.11840678006410599,
+          "replay": 0.11838509887456894,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            2494748,
+            "identity",
+            "sentence"
+          ],
+          "upstream": 0.8432806730270386,
+          "replay": 0.8434443473815918,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            22036571,
+            "report_verb_upgrade",
+            "sentence"
+          ],
+          "upstream": 0.8057540059089661,
+          "replay": 0.8056321740150452,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            4388470,
+            "identity",
+            "sentence"
+          ],
+          "upstream": 0.7714431285858154,
+          "replay": 0.7710686922073364,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            10247282,
+            "scope_drop",
+            "sentence"
+          ],
+          "upstream": 0.587064802646637,
+          "replay": 0.5868484377861023,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            21767325,
+            "report_verb_upgrade",
+            "sentence"
+          ],
+          "upstream": 0.728843629360199,
+          "replay": 0.7289412617683411,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            26611094,
+            "negate",
+            "sentence"
+          ],
+          "upstream": 0.019731462001800537,
+          "replay": 0.01973801478743553,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            8596357,
+            "identity",
+            "sentence"
+          ],
+          "upstream": 0.7369896173477173,
+          "replay": 0.7366847991943359,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            43334921,
+            "causal_upgrade",
+            "sentence"
+          ],
+          "upstream": 0.8915608525276184,
+          "replay": 0.8915280699729919,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            6407356,
+            "scope_drop",
+            "sentence"
+          ],
+          "upstream": 0.4339911639690399,
+          "replay": 0.4344162940979004,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            19315511,
+            "weaken",
+            "sentence"
+          ],
+          "upstream": 0.7573192119598389,
+          "replay": 0.7570766806602478,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            4550036,
+            "identity",
+            "sentence"
+          ],
+          "upstream": 0.9371082782745361,
+          "replay": 0.9370958209037781,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            11616424,
+            "negate",
+            "sentence"
+          ],
+          "upstream": 0.1337200105190277,
+          "replay": 0.13352815806865692,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            2682251,
+            "weaken",
+            "sentence"
+          ],
+          "upstream": 0.8840150237083435,
+          "replay": 0.8839892745018005,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            9167230,
+            "negate",
+            "sentence"
+          ],
+          "upstream": 0.046385154128074646,
+          "replay": 0.046378206461668015,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            35271381,
+            "modal_strengthen",
+            "sentence"
+          ],
+          "upstream": 0.7619633674621582,
+          "replay": 0.7623355984687805,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            3623127,
+            "negate",
+            "sentence"
+          ],
+          "upstream": 0.08357744663953781,
+          "replay": 0.08351588249206543,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            25148216,
+            "identity",
+            "sentence"
+          ],
+          "upstream": 0.6999858617782593,
+          "replay": 0.7002802491188049,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            24625323,
+            "weaken",
+            "sentence"
+          ],
+          "upstream": 0.7709028124809265,
+          "replay": 0.7706374526023865,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            38873881,
+            "negate",
+            "sentence"
+          ],
+          "upstream": 0.025458119809627533,
+          "replay": 0.02544385753571987,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            21246752,
+            "identity",
+            "sentence"
+          ],
+          "upstream": 0.8010070323944092,
+          "replay": 0.8009256720542908,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            26117607,
+            "negate",
+            "sentence"
+          ],
+          "upstream": 0.04900939017534256,
+          "replay": 0.049085184931755066,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            42662816,
+            "weaken",
+            "sentence"
+          ],
+          "upstream": 0.8083357214927673,
+          "replay": 0.8080672025680542,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            21878751,
+            "identity",
+            "sentence"
+          ],
+          "upstream": 0.8252432942390442,
+          "replay": 0.8250970244407654,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            2158516,
+            "negate",
+            "sentence"
+          ],
+          "upstream": 0.044381365180015564,
+          "replay": 0.04443143308162689,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            2601135,
+            "identity",
+            "sentence"
+          ],
+          "upstream": 0.8244355916976929,
+          "replay": 0.8245325684547424,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            19752008,
+            "weaken",
+            "sentence"
+          ],
+          "upstream": 0.8612403869628906,
+          "replay": 0.8614217042922974,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            7506409,
+            "identity",
+            "sentence"
+          ],
+          "upstream": 0.8847501277923584,
+          "replay": 0.8846385478973389,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            31208367,
+            "negate",
+            "sentence"
+          ],
+          "upstream": 0.07742956280708313,
+          "replay": 0.07751765847206116,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            38551172,
+            "identity",
+            "sentence"
+          ],
+          "upstream": 0.455157071352005,
+          "replay": 0.4533601701259613,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            30041340,
+            "identity",
+            "sentence"
+          ],
+          "upstream": 0.7969709038734436,
+          "replay": 0.796609103679657,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            10145528,
+            "weaken",
+            "sentence"
+          ],
+          "upstream": 0.7912934422492981,
+          "replay": 0.7913377285003662,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            7581911,
+            "identity",
+            "sentence"
+          ],
+          "upstream": 0.7546513676643372,
+          "replay": 0.754553496837616,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            5735492,
+            "identity",
+            "sentence"
+          ],
+          "upstream": 0.6009023785591125,
+          "replay": 0.6015057563781738,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            9752604,
+            "scope_drop",
+            "sentence"
+          ],
+          "upstream": 0.7167618274688721,
+          "replay": 0.7166153788566589,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            19673227,
+            "modal_strengthen",
+            "sentence"
+          ],
+          "upstream": 0.7437400817871094,
+          "replay": 0.7441918849945068,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            10145528,
+            "negate",
+            "sentence"
+          ],
+          "upstream": 0.03641451895236969,
+          "replay": 0.03645944222807884,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            8246090,
+            "weaken",
+            "sentence"
+          ],
+          "upstream": 0.7791747450828552,
+          "replay": 0.7792378664016724,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            5839365,
+            "negate",
+            "sentence"
+          ],
+          "upstream": 0.1508437693119049,
+          "replay": 0.15084007382392883,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            26907074,
+            "identity",
+            "sentence"
+          ],
+          "upstream": 0.72777259349823,
+          "replay": 0.7276369333267212,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            25725663,
+            "weaken",
+            "sentence"
+          ],
+          "upstream": 0.8939018249511719,
+          "replay": 0.8936811685562134,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            21767325,
+            "hedge_adverb_drop",
+            "sentence"
+          ],
+          "upstream": 0.8267634510993958,
+          "replay": 0.826641857624054,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            9167230,
+            "report_verb_upgrade",
+            "sentence"
+          ],
+          "upstream": 0.7594047784805298,
+          "replay": 0.7592254281044006,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            22547508,
+            "identity",
+            "abstract"
+          ],
+          "upstream": 0.8780003786087036,
+          "replay": 0.8778960704803467,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            6171953,
+            "negate",
+            "abstract"
+          ],
+          "upstream": 0.07965962588787079,
+          "replay": 0.07971034944057465,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            5774746,
+            "weaken",
+            "abstract"
+          ],
+          "upstream": 0.9810308218002319,
+          "replay": 0.9810401201248169,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            22871664,
+            "hedge_adverb_drop",
+            "abstract"
+          ],
+          "upstream": 0.9633798599243164,
+          "replay": 0.9633687138557434,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            26720366,
+            "identity",
+            "abstract"
+          ],
+          "upstream": 0.9747089147567749,
+          "replay": 0.9746769666671753,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            5271210,
+            "identity",
+            "abstract"
+          ],
+          "upstream": 0.9803776144981384,
+          "replay": 0.9803749918937683,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            28517384,
+            "weaken",
+            "abstract"
+          ],
+          "upstream": 0.9809977412223816,
+          "replay": 0.9809855818748474,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            20460020,
+            "identity",
+            "abstract"
+          ],
+          "upstream": 0.9813360571861267,
+          "replay": 0.9813286066055298,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            33723822,
+            "identity",
+            "abstract"
+          ],
+          "upstream": 0.9706162214279175,
+          "replay": 0.9706321954727173,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            4418112,
+            "scope_drop",
+            "abstract"
+          ],
+          "upstream": 0.979570746421814,
+          "replay": 0.9795701503753662,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            13290521,
+            "negate",
+            "abstract"
+          ],
+          "upstream": 0.2742947041988373,
+          "replay": 0.2745458483695984,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            3619931,
+            "modal_strengthen",
+            "abstract"
+          ],
+          "upstream": 0.8889379501342773,
+          "replay": 0.8886622190475464,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            11659421,
+            "negate",
+            "abstract"
+          ],
+          "upstream": 0.0344516895711422,
+          "replay": 0.03448852524161339,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            19752008,
+            "modal_strengthen",
+            "abstract"
+          ],
+          "upstream": 0.6218588352203369,
+          "replay": 0.6214260458946228,
+          "agree": true,
+          "chunks": 2
+        },
+        {
+          "key": [
+            2380002,
+            "hedge_adverb_drop",
+            "abstract"
+          ],
+          "upstream": 0.9728977084159851,
+          "replay": 0.9728566408157349,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            14338915,
+            "identity",
+            "abstract"
+          ],
+          "upstream": 0.9503034353256226,
+          "replay": 0.9501341581344604,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            38882175,
+            "weaken",
+            "abstract"
+          ],
+          "upstream": 0.9733766913414001,
+          "replay": 0.9733675122261047,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            1542437,
+            "negate",
+            "abstract"
+          ],
+          "upstream": 0.1663069725036621,
+          "replay": 0.16640429198741913,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            14340571,
+            "identity",
+            "abstract"
+          ],
+          "upstream": 0.9639080166816711,
+          "replay": 0.9638481140136719,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            23912923,
+            "report_verb_upgrade",
+            "abstract"
+          ],
+          "upstream": 0.975993812084198,
+          "replay": 0.9759923219680786,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            13070316,
+            "quantifier_inflate",
+            "abstract"
+          ],
+          "upstream": 0.047994084656238556,
+          "replay": 0.04809204861521721,
+          "agree": true,
+          "chunks": 2
+        },
+        {
+          "key": [
+            26378103,
+            "modal_strengthen",
+            "abstract"
+          ],
+          "upstream": 0.9813868403434753,
+          "replay": 0.9814000129699707,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            26117607,
+            "modal_strengthen",
+            "abstract"
+          ],
+          "upstream": 0.9356942772865295,
+          "replay": 0.9356411695480347,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            10765888,
+            "negate",
+            "abstract"
+          ],
+          "upstream": 0.11312035471200943,
+          "replay": 0.11313790082931519,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            19408393,
+            "weaken",
+            "abstract"
+          ],
+          "upstream": 0.9651866555213928,
+          "replay": 0.9651191234588623,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            24396137,
+            "modal_strengthen",
+            "abstract"
+          ],
+          "upstream": 0.6690441370010376,
+          "replay": 0.6689343452453613,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            9993008,
+            "identity",
+            "abstract"
+          ],
+          "upstream": 0.9857501983642578,
+          "replay": 0.9857729077339172,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            24097933,
+            "negate",
+            "abstract"
+          ],
+          "upstream": 0.2778875529766083,
+          "replay": 0.2782568037509918,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            39550665,
+            "weaken",
+            "abstract"
+          ],
+          "upstream": 0.9807628393173218,
+          "replay": 0.9807472825050354,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            13282296,
+            "identity",
+            "abstract"
+          ],
+          "upstream": 0.9661178588867188,
+          "replay": 0.9660279750823975,
+          "agree": true,
+          "chunks": 2
+        },
+        {
+          "key": [
+            23901235,
+            "negate",
+            "abstract"
+          ],
+          "upstream": 0.1503530889749527,
+          "replay": 0.15071502327919006,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            68317730,
+            "negate",
+            "abstract"
+          ],
+          "upstream": 0.1618870496749878,
+          "replay": 0.16132023930549622,
+          "agree": true,
+          "chunks": 2
+        },
+        {
+          "key": [
+            26089649,
+            "scope_drop",
+            "abstract"
+          ],
+          "upstream": 0.9791477918624878,
+          "replay": 0.9791356921195984,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            21216726,
+            "negate",
+            "abstract"
+          ],
+          "upstream": 0.054465312510728836,
+          "replay": 0.054449573159217834,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            13312471,
+            "modal_strengthen",
+            "abstract"
+          ],
+          "upstream": 0.522459864616394,
+          "replay": 0.5225752592086792,
+          "agree": true,
+          "chunks": 2
+        },
+        {
+          "key": [
+            11616424,
+            "weaken",
+            "abstract"
+          ],
+          "upstream": 0.9801259636878967,
+          "replay": 0.9801293015480042,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            3619931,
+            "negate",
+            "abstract"
+          ],
+          "upstream": 0.20767737925052643,
+          "replay": 0.207857146859169,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            24980622,
+            "weaken",
+            "abstract"
+          ],
+          "upstream": 0.9713177680969238,
+          "replay": 0.9712929129600525,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            25148216,
+            "scope_drop",
+            "abstract"
+          ],
+          "upstream": 0.9568271636962891,
+          "replay": 0.9568765759468079,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            30041340,
+            "identity",
+            "abstract"
+          ],
+          "upstream": 0.9822573065757751,
+          "replay": 0.9822366237640381,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            14340571,
+            "modal_strengthen",
+            "abstract"
+          ],
+          "upstream": 0.5699862837791443,
+          "replay": 0.5697030425071716,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            13771184,
+            "identity",
+            "abstract"
+          ],
+          "upstream": 0.9771695733070374,
+          "replay": 0.9771755933761597,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            2266471,
+            "weaken",
+            "abstract"
+          ],
+          "upstream": 0.6538783311843872,
+          "replay": 0.6554463505744934,
+          "agree": true,
+          "chunks": 2
+        },
+        {
+          "key": [
+            2506153,
+            "identity",
+            "abstract"
+          ],
+          "upstream": 0.9854132533073425,
+          "replay": 0.9854124188423157,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            4325398,
+            "identity",
+            "abstract"
+          ],
+          "upstream": 0.9795982241630554,
+          "replay": 0.9795897603034973,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            7734150,
+            "scope_drop",
+            "abstract"
+          ],
+          "upstream": 0.977271556854248,
+          "replay": 0.9773059487342834,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            30152134,
+            "weaken",
+            "abstract"
+          ],
+          "upstream": 0.9818223714828491,
+          "replay": 0.9818056225776672,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            14719322,
+            "identity",
+            "abstract"
+          ],
+          "upstream": 0.968963086605072,
+          "replay": 0.9689444899559021,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            8814634,
+            "identity",
+            "abstract"
+          ],
+          "upstream": 0.9549274444580078,
+          "replay": 0.9548583030700684,
+          "agree": true,
+          "chunks": 1
+        },
+        {
+          "key": [
+            6407356,
+            "scope_drop",
+            "abstract"
+          ],
+          "upstream": 0.9524350762367249,
+          "replay": 0.9524857997894287,
+          "agree": true,
+          "chunks": 1
+        }
+      ],
+      "agreement": 1.0,
+      "max_probability_difference": 0.0017969012260437012
+    }
+  }
+}

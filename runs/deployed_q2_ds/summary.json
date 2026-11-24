@@ -1,0 +1,131 @@
+[
+ {
+  "verifier": "phoenix_faithfulness__deepseek_v4_pro",
+  "premise_cond": "abstract",
+  "edit": "identity",
+  "n": 300,
+  "expected_supported": true,
+  "mean_p": 1.0,
+  "rate_supported@0.5": 1.0
+ },
+ {
+  "verifier": "phoenix_faithfulness__deepseek_v4_pro",
+  "premise_cond": "abstract",
+  "edit": "weaken",
+  "n": 300,
+  "expected_supported": true,
+  "mean_p": 0.67,
+  "rate_supported@0.5": 0.67,
+  "support_rate_drop_vs_identity": 0.33,
+  "drop_ci95": [
+   0.2799166666666667,
+   0.38333333333333336
+  ],
+  "auroc_identity_vs_edit": 0.665
+ },
+ {
+  "verifier": "phoenix_faithfulness__deepseek_v4_pro",
+  "premise_cond": "abstract",
+  "edit": "negate",
+  "n": 239,
+  "expected_supported": false,
+  "mean_p": 0.0,
+  "rate_supported@0.5": 0.0,
+  "support_rate_drop_vs_identity": 1.0,
+  "drop_ci95": [
+   1.0,
+   1.0
+  ],
+  "auroc_identity_vs_edit": 1.0
+ },
+ {
+  "verifier": "phoenix_faithfulness__deepseek_v4_pro",
+  "premise_cond": "abstract",
+  "edit": "modal_strengthen",
+  "n": 103,
+  "expected_supported": false,
+  "mean_p": 0.1941747572815534,
+  "rate_supported@0.5": 0.1941747572815534,
+  "support_rate_drop_vs_identity": 0.8058252427184466,
+  "drop_ci95": [
+   0.7279126213592233,
+   0.8737864077669902
+  ],
+  "auroc_identity_vs_edit": 0.9029126213592233
+ },
+ {
+  "verifier": "phoenix_faithfulness__deepseek_v4_pro",
+  "premise_cond": "abstract",
+  "edit": "report_verb_upgrade",
+  "n": 81,
+  "expected_supported": false,
+  "mean_p": 0.654320987654321,
+  "rate_supported@0.5": 0.654320987654321,
+  "support_rate_drop_vs_identity": 0.345679012345679,
+  "drop_ci95": [
+   0.2345679012345679,
+   0.4444444444444444
+  ],
+  "auroc_identity_vs_edit": 0.6728395061728395
+ },
+ {
+  "verifier": "phoenix_faithfulness__deepseek_v4_pro",
+  "premise_cond": "abstract",
+  "edit": "hedge_adverb_drop",
+  "n": 32,
+  "expected_supported": false,
+  "mean_p": 0.71875,
+  "rate_supported@0.5": 0.71875,
+  "support_rate_drop_vs_identity": 0.28125,
+  "drop_ci95": [
+   0.125,
+   0.4375
+  ],
+  "auroc_identity_vs_edit": 0.640625
+ },
+ {
+  "verifier": "phoenix_faithfulness__deepseek_v4_pro",
+  "premise_cond": "abstract",
+  "edit": "causal_upgrade",
+  "n": 42,
+  "expected_supported": false,
+  "mean_p": 0.047619047619047616,
+  "rate_supported@0.5": 0.047619047619047616,
+  "support_rate_drop_vs_identity": 0.9523809523809523,
+  "drop_ci95": [
+   0.8809523809523809,
+   1.0
+  ],
+  "auroc_identity_vs_edit": 0.9761904761904762
+ },
+ {
+  "verifier": "phoenix_faithfulness__deepseek_v4_pro",
+  "premise_cond": "abstract",
+  "edit": "scope_drop",
+  "n": 44,
+  "expected_supported": false,
+  "mean_p": 1.0,
+  "rate_supported@0.5": 1.0,
+  "support_rate_drop_vs_identity": 0.0,
+  "drop_ci95": [
+   0.0,
+   0.0
+  ],
+  "auroc_identity_vs_edit": 0.5
+ },
+ {
+  "verifier": "phoenix_faithfulness__deepseek_v4_pro",
+  "premise_cond": "abstract",
+  "edit": "quantifier_inflate",
+  "n": 27,
+  "expected_supported": false,
+  "mean_p": 0.037037037037037035,
+  "rate_supported@0.5": 0.037037037037037035,
+  "support_rate_drop_vs_identity": 0.9629629629629629,
+  "drop_ci95": [
+   0.8888888888888888,
+   1.0
+  ],
+  "auroc_identity_vs_edit": 0.9814814814814815
+ }
+]

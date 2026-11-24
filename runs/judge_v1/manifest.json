@@ -1,0 +1,56 @@
+{
+ "scifact_sha256": "11c621288d41ac144d29b13b0f8503b3820b7d6e8b1f6ff24dff335c196d76be",
+ "seed": 20261119,
+ "n_pairs": 2336,
+ "judges": {
+  "qwen3_4b_instruct_2507__generic": {
+   "hf_id": "Qwen/Qwen3-4B-Instruct-2507",
+   "revision": null,
+   "prompt": "generic",
+   "prompt_text": "Evidence:\n{premise}\n\nClaim:\n{claim}\n\nIs the claim supported by the evidence? Answer Yes or No.",
+   "system": "You are a careful fact-checking assistant. Answer with a single word: Yes or No.",
+   "yes_ids": [
+    7414,
+    9454,
+    9693,
+    9834
+   ],
+   "no_ids": [
+    902,
+    2152,
+    2308,
+    2753
+   ],
+   "n_argmax_not_yes_no": 0,
+   "dtype": "bfloat16",
+   "max_len_tokens": null,
+   "seconds": 116.87
+  },
+  "qwen3_4b_instruct_2507__strength": {
+   "hf_id": "Qwen/Qwen3-4B-Instruct-2507",
+   "revision": null,
+   "prompt": "strength",
+   "prompt_text": "Evidence:\n{premise}\n\nClaim:\n{claim}\n\nIs the claim supported by the evidence? A claim counts as supported only if the evidence warrants it as stated, including its degree of certainty, whether it asserts causation or only association, and its scope (population, setting, quantifier). A claim stated more strongly or more generally than the evidence warrants is NOT supported. A claim stated more cautiously than the evidence is still supported. Answer Yes or No.",
+   "system": "You are a careful fact-checking assistant. Answer with a single word: Yes or No.",
+   "yes_ids": [
+    7414,
+    9454,
+    9693,
+    9834
+   ],
+   "no_ids": [
+    902,
+    2152,
+    2308,
+    2753
+   ],
+   "n_argmax_not_yes_no": 0,
+   "dtype": "bfloat16",
+   "max_len_tokens": null,
+   "seconds": 129.14
+  }
+ },
+ "label": "PILOT_ONLY_NOT_CONFIRMATORY",
+ "same_pairs_as": "runs/pilot_v1",
+ "total_seconds": 248.18
+}

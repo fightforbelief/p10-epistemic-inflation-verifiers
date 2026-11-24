@@ -1,0 +1,8 @@
+{
+ "labels_sha256": "4ec462a87d9767d28bf3249d03cbc1b75b963f5f43e8705d12961c7e062d92f8",
+ "seed": 20261119,
+ "n_infl": 329,
+ "n_ctrl": 80,
+ "missing_arms": [],
+ "label": "PILOT_ONLY_NOT_CONFIRMATORY"
+}

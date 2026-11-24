@@ -1,0 +1,11 @@
+# P10 project dependencies for the hanqing-win root .venv.
+# torch is pinned to a CUDA build: an unpinned "torch" resolves to the CPU wheel on PyPI.
+# Driver 621.14 supports CUDA 13; RTX 5070 Ti (sm_120). Installed versions are frozen to requirements-lock.txt.
+--extra-index-url https://download.pytorch.org/whl/cu132
+torch==2.15.0+cu132
+transformers
+numpy
+sentencepiece
+protobuf
+# hand-audit workbook (scripts/build_audit_sheet.py)
+openpyxl

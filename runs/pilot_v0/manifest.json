@@ -1,0 +1,61 @@
+{
+ "scifact_sha256": "11c621288d41ac144d29b13b0f8503b3820b7d6e8b1f6ff24dff335c196d76be",
+ "seed": 20261119,
+ "n_items": 300,
+ "n_pairs": 2344,
+ "corpus_docs": 5183,
+ "verifiers": {
+  "nli_deberta_v3_large": {
+   "hf_id": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+   "id2label": {
+    "0": "entailment",
+    "1": "neutral",
+    "2": "contradiction"
+   },
+   "support_index": 0,
+   "rule": "label:entailment",
+   "revision": null,
+   "device": "cuda",
+   "seconds": 77.76
+  },
+  "nli_deberta_v3_base": {
+   "hf_id": "cross-encoder/nli-deberta-v3-base",
+   "id2label": {
+    "0": "contradiction",
+    "1": "entailment",
+    "2": "neutral"
+   },
+   "support_index": 1,
+   "rule": "label:entailment",
+   "revision": null,
+   "device": "cuda",
+   "seconds": 37.57
+  },
+  "minicheck_roberta_large": {
+   "hf_id": "lytang/MiniCheck-RoBERTa-Large",
+   "id2label": {
+    "0": "0",
+    "1": "1"
+   },
+   "support_index": 1,
+   "rule": "index:1",
+   "revision": null,
+   "device": "cuda",
+   "seconds": 54.86
+  },
+  "minicheck_deberta_v3_large": {
+   "hf_id": "lytang/MiniCheck-DeBERTa-v3-Large",
+   "id2label": {
+    "0": "0",
+    "1": "1"
+   },
+   "support_index": 1,
+   "rule": "index:1",
+   "revision": null,
+   "device": "cuda",
+   "seconds": 101.35
+  }
+ },
+ "label": "PILOT_ONLY_NOT_CONFIRMATORY",
+ "total_seconds": 274.9
+}

@@ -1,0 +1,518 @@
+[
+ {
+  "verifier": "minicheck_roberta_large__official",
+  "premise_cond": "sentence",
+  "edit": "identity",
+  "n": 300,
+  "expected_supported": true,
+  "mean_p": 0.9857434886693954,
+  "rate_supported@0.5": 1.0
+ },
+ {
+  "verifier": "minicheck_roberta_large__official",
+  "premise_cond": "sentence",
+  "edit": "weaken",
+  "n": 300,
+  "expected_supported": true,
+  "mean_p": 0.4418300838271777,
+  "rate_supported@0.5": 0.31666666666666665,
+  "support_rate_drop_vs_identity": 0.6833333333333333,
+  "drop_ci95": [
+   0.63,
+   0.7333333333333333
+  ],
+  "auroc_identity_vs_edit": 1.0
+ },
+ {
+  "verifier": "minicheck_roberta_large__official",
+  "premise_cond": "sentence",
+  "edit": "negate",
+  "n": 239,
+  "expected_supported": false,
+  "mean_p": 0.2029216342671895,
+  "rate_supported@0.5": 0.02510460251046025,
+  "support_rate_drop_vs_identity": 0.9748953974895398,
+  "drop_ci95": [
+   0.9539748953974896,
+   0.9916317991631799
+  ],
+  "auroc_identity_vs_edit": 0.9999649866073773
+ },
+ {
+  "verifier": "minicheck_roberta_large__official",
+  "premise_cond": "sentence",
+  "edit": "modal_strengthen",
+  "n": 103,
+  "expected_supported": false,
+  "mean_p": 0.48268337786487003,
+  "rate_supported@0.5": 0.3300970873786408,
+  "support_rate_drop_vs_identity": 0.6699029126213593,
+  "drop_ci95": [
+   0.5728155339805825,
+   0.75752427184466
+  ],
+  "auroc_identity_vs_edit": 0.9996229616363465
+ },
+ {
+  "verifier": "minicheck_roberta_large__official",
+  "premise_cond": "sentence",
+  "edit": "report_verb_upgrade",
+  "n": 81,
+  "expected_supported": false,
+  "mean_p": 0.7293745168933162,
+  "rate_supported@0.5": 0.9382716049382716,
+  "support_rate_drop_vs_identity": 0.06172839506172839,
+  "drop_ci95": [
+   0.012345679012345678,
+   0.12345679012345678
+  ],
+  "auroc_identity_vs_edit": 1.0
+ },
+ {
+  "verifier": "minicheck_roberta_large__official",
+  "premise_cond": "sentence",
+  "edit": "hedge_adverb_drop",
+  "n": 32,
+  "expected_supported": false,
+  "mean_p": 0.6036460101604462,
+  "rate_supported@0.5": 0.59375,
+  "support_rate_drop_vs_identity": 0.40625,
+  "drop_ci95": [
+   0.25,
+   0.5625
+  ],
+  "auroc_identity_vs_edit": 1.0
+ },
+ {
+  "verifier": "minicheck_roberta_large__official",
+  "premise_cond": "sentence",
+  "edit": "causal_upgrade",
+  "n": 42,
+  "expected_supported": false,
+  "mean_p": 0.662767557161195,
+  "rate_supported@0.5": 0.8333333333333334,
+  "support_rate_drop_vs_identity": 0.16666666666666666,
+  "drop_ci95": [
+   0.047619047619047616,
+   0.2857142857142857
+  ],
+  "auroc_identity_vs_edit": 1.0
+ },
+ {
+  "verifier": "minicheck_roberta_large__official",
+  "premise_cond": "sentence",
+  "edit": "scope_drop",
+  "n": 44,
+  "expected_supported": false,
+  "mean_p": 0.644331466067921,
+  "rate_supported@0.5": 0.6818181818181818,
+  "support_rate_drop_vs_identity": 0.3181818181818182,
+  "drop_ci95": [
+   0.18181818181818182,
+   0.45454545454545453
+  ],
+  "auroc_identity_vs_edit": 1.0
+ },
+ {
+  "verifier": "minicheck_roberta_large__official",
+  "premise_cond": "sentence",
+  "edit": "quantifier_inflate",
+  "n": 27,
+  "expected_supported": false,
+  "mean_p": 0.1732605908204008,
+  "rate_supported@0.5": 0.037037037037037035,
+  "support_rate_drop_vs_identity": 0.9629629629629629,
+  "drop_ci95": [
+   0.8888888888888888,
+   1.0
+  ],
+  "auroc_identity_vs_edit": 1.0
+ },
+ {
+  "verifier": "minicheck_roberta_large__official",
+  "premise_cond": "abstract",
+  "edit": "identity",
+  "n": 300,
+  "expected_supported": true,
+  "mean_p": 0.9659722455342611,
+  "rate_supported@0.5": 0.99
+ },
+ {
+  "verifier": "minicheck_roberta_large__official",
+  "premise_cond": "abstract",
+  "edit": "weaken",
+  "n": 300,
+  "expected_supported": true,
+  "mean_p": 0.8603274586300055,
+  "rate_supported@0.5": 0.97,
+  "support_rate_drop_vs_identity": 0.02,
+  "drop_ci95": [
+   -0.0033333333333333335,
+   0.043333333333333335
+  ],
+  "auroc_identity_vs_edit": 0.8155
+ },
+ {
+  "verifier": "minicheck_roberta_large__official",
+  "premise_cond": "abstract",
+  "edit": "negate",
+  "n": 239,
+  "expected_supported": false,
+  "mean_p": 0.10492377697829172,
+  "rate_supported@0.5": 0.029288702928870293,
+  "support_rate_drop_vs_identity": 0.9623430962343096,
+  "drop_ci95": [
+   0.9372384937238494,
+   0.9832635983263598
+  ],
+  "auroc_identity_vs_edit": 0.9935750424537385
+ },
+ {
+  "verifier": "minicheck_roberta_large__official",
+  "premise_cond": "abstract",
+  "edit": "modal_strengthen",
+  "n": 103,
+  "expected_supported": false,
+  "mean_p": 0.8103880893836901,
+  "rate_supported@0.5": 0.9320388349514563,
+  "support_rate_drop_vs_identity": 0.06796116504854369,
+  "drop_ci95": [
+   0.02912621359223301,
+   0.11650485436893204
+  ],
+  "auroc_identity_vs_edit": 0.898576680177208
+ },
+ {
+  "verifier": "minicheck_roberta_large__official",
+  "premise_cond": "abstract",
+  "edit": "report_verb_upgrade",
+  "n": 81,
+  "expected_supported": false,
+  "mean_p": 0.9319501397786317,
+  "rate_supported@0.5": 0.9876543209876543,
+  "support_rate_drop_vs_identity": 0.0,
+  "drop_ci95": [
+   -0.037037037037037035,
+   0.037037037037037035
+  ],
+  "auroc_identity_vs_edit": 0.7309099222679469
+ },
+ {
+  "verifier": "minicheck_roberta_large__official",
+  "premise_cond": "abstract",
+  "edit": "hedge_adverb_drop",
+  "n": 32,
+  "expected_supported": false,
+  "mean_p": 0.8612400740385056,
+  "rate_supported@0.5": 0.90625,
+  "support_rate_drop_vs_identity": 0.0625,
+  "drop_ci95": [
+   0.0,
+   0.15625
+  ],
+  "auroc_identity_vs_edit": 0.779296875
+ },
+ {
+  "verifier": "minicheck_roberta_large__official",
+  "premise_cond": "abstract",
+  "edit": "causal_upgrade",
+  "n": 42,
+  "expected_supported": false,
+  "mean_p": 0.887547051622754,
+  "rate_supported@0.5": 0.9761904761904762,
+  "support_rate_drop_vs_identity": 0.023809523809523808,
+  "drop_ci95": [
+   0.0,
+   0.07142857142857142
+  ],
+  "auroc_identity_vs_edit": 0.8208616780045351
+ },
+ {
+  "verifier": "minicheck_roberta_large__official",
+  "premise_cond": "abstract",
+  "edit": "scope_drop",
+  "n": 44,
+  "expected_supported": false,
+  "mean_p": 0.9451018267057159,
+  "rate_supported@0.5": 0.9772727272727273,
+  "support_rate_drop_vs_identity": 0.0,
+  "drop_ci95": [
+   -0.06818181818181818,
+   0.06818181818181818
+  ],
+  "auroc_identity_vs_edit": 0.6340392561983471
+ },
+ {
+  "verifier": "minicheck_roberta_large__official",
+  "premise_cond": "abstract",
+  "edit": "quantifier_inflate",
+  "n": 27,
+  "expected_supported": false,
+  "mean_p": 0.11807738575670454,
+  "rate_supported@0.5": 0.037037037037037035,
+  "support_rate_drop_vs_identity": 0.9629629629629629,
+  "drop_ci95": [
+   0.8888888888888888,
+   1.0
+  ],
+  "auroc_identity_vs_edit": 0.9945130315500685
+ },
+ {
+  "verifier": "minicheck_deberta_v3_large__official",
+  "premise_cond": "sentence",
+  "edit": "identity",
+  "n": 300,
+  "expected_supported": true,
+  "mean_p": 0.7645945043861866,
+  "rate_supported@0.5": 0.9766666666666667
+ },
+ {
+  "verifier": "minicheck_deberta_v3_large__official",
+  "premise_cond": "sentence",
+  "edit": "weaken",
+  "n": 300,
+  "expected_supported": true,
+  "mean_p": 0.7784769378105799,
+  "rate_supported@0.5": 0.9733333333333334,
+  "support_rate_drop_vs_identity": 0.0033333333333333335,
+  "drop_ci95": [
+   -0.016666666666666666,
+   0.023333333333333334
+  ],
+  "auroc_identity_vs_edit": 0.45568333333333333
+ },
+ {
+  "verifier": "minicheck_deberta_v3_large__official",
+  "premise_cond": "sentence",
+  "edit": "negate",
+  "n": 239,
+  "expected_supported": false,
+  "mean_p": 0.0760866680560501,
+  "rate_supported@0.5": 0.0041841004184100415,
+  "support_rate_drop_vs_identity": 0.9707112970711297,
+  "drop_ci95": [
+   0.9497907949790795,
+   0.9916317991631799
+  ],
+  "auroc_identity_vs_edit": 0.9996498660737733
+ },
+ {
+  "verifier": "minicheck_deberta_v3_large__official",
+  "premise_cond": "sentence",
+  "edit": "modal_strengthen",
+  "n": 103,
+  "expected_supported": false,
+  "mean_p": 0.36274184919532065,
+  "rate_supported@0.5": 0.3106796116504854,
+  "support_rate_drop_vs_identity": 0.6601941747572816,
+  "drop_ci95": [
+   0.5631067961165048,
+   0.7572815533980582
+  ],
+  "auroc_identity_vs_edit": 0.9228485248374022
+ },
+ {
+  "verifier": "minicheck_deberta_v3_large__official",
+  "premise_cond": "sentence",
+  "edit": "report_verb_upgrade",
+  "n": 81,
+  "expected_supported": false,
+  "mean_p": 0.6423391640922169,
+  "rate_supported@0.5": 0.7777777777777778,
+  "support_rate_drop_vs_identity": 0.18518518518518517,
+  "drop_ci95": [
+   0.1111111111111111,
+   0.2716049382716049
+  ],
+  "auroc_identity_vs_edit": 0.6711629324798049
+ },
+ {
+  "verifier": "minicheck_deberta_v3_large__official",
+  "premise_cond": "sentence",
+  "edit": "hedge_adverb_drop",
+  "n": 32,
+  "expected_supported": false,
+  "mean_p": 0.649941423907876,
+  "rate_supported@0.5": 0.75,
+  "support_rate_drop_vs_identity": 0.21875,
+  "drop_ci95": [
+   0.09375,
+   0.375
+  ],
+  "auroc_identity_vs_edit": 0.65478515625
+ },
+ {
+  "verifier": "minicheck_deberta_v3_large__official",
+  "premise_cond": "sentence",
+  "edit": "causal_upgrade",
+  "n": 42,
+  "expected_supported": false,
+  "mean_p": 0.7581556340058645,
+  "rate_supported@0.5": 0.9523809523809523,
+  "support_rate_drop_vs_identity": 0.023809523809523808,
+  "drop_ci95": [
+   -0.047619047619047616,
+   0.11904761904761904
+  ],
+  "auroc_identity_vs_edit": 0.49036281179138325
+ },
+ {
+  "verifier": "minicheck_deberta_v3_large__official",
+  "premise_cond": "sentence",
+  "edit": "scope_drop",
+  "n": 44,
+  "expected_supported": false,
+  "mean_p": 0.7099904560229995,
+  "rate_supported@0.5": 0.8863636363636364,
+  "support_rate_drop_vs_identity": 0.11363636363636363,
+  "drop_ci95": [
+   0.022727272727272728,
+   0.20454545454545456
+  ],
+  "auroc_identity_vs_edit": 0.5247933884297521
+ },
+ {
+  "verifier": "minicheck_deberta_v3_large__official",
+  "premise_cond": "sentence",
+  "edit": "quantifier_inflate",
+  "n": 27,
+  "expected_supported": false,
+  "mean_p": 0.10752066838796492,
+  "rate_supported@0.5": 0.07407407407407407,
+  "support_rate_drop_vs_identity": 0.8888888888888888,
+  "drop_ci95": [
+   0.7777777777777778,
+   1.0
+  ],
+  "auroc_identity_vs_edit": 0.99039780521262
+ },
+ {
+  "verifier": "minicheck_deberta_v3_large__official",
+  "premise_cond": "abstract",
+  "edit": "identity",
+  "n": 300,
+  "expected_supported": true,
+  "mean_p": 0.9449130088587602,
+  "rate_supported@0.5": 0.9933333333333333
+ },
+ {
+  "verifier": "minicheck_deberta_v3_large__official",
+  "premise_cond": "abstract",
+  "edit": "weaken",
+  "n": 300,
+  "expected_supported": true,
+  "mean_p": 0.9549212840696176,
+  "rate_supported@0.5": 0.9966666666666667,
+  "support_rate_drop_vs_identity": -0.0033333333333333335,
+  "drop_ci95": [
+   -0.016666666666666666,
+   0.006666666666666667
+  ],
+  "auroc_identity_vs_edit": 0.44856111111111113
+ },
+ {
+  "verifier": "minicheck_deberta_v3_large__official",
+  "premise_cond": "abstract",
+  "edit": "negate",
+  "n": 239,
+  "expected_supported": false,
+  "mean_p": 0.2271257115442259,
+  "rate_supported@0.5": 0.08786610878661087,
+  "support_rate_drop_vs_identity": 0.9037656903765691,
+  "drop_ci95": [
+   0.8661087866108786,
+   0.9372384937238494
+  ],
+  "auroc_identity_vs_edit": 0.9967087410934683
+ },
+ {
+  "verifier": "minicheck_deberta_v3_large__official",
+  "premise_cond": "abstract",
+  "edit": "modal_strengthen",
+  "n": 103,
+  "expected_supported": false,
+  "mean_p": 0.7689851189701302,
+  "rate_supported@0.5": 0.8349514563106796,
+  "support_rate_drop_vs_identity": 0.1650485436893204,
+  "drop_ci95": [
+   0.0970873786407767,
+   0.24271844660194175
+  ],
+  "auroc_identity_vs_edit": 0.7818833066264492
+ },
+ {
+  "verifier": "minicheck_deberta_v3_large__official",
+  "premise_cond": "abstract",
+  "edit": "report_verb_upgrade",
+  "n": 81,
+  "expected_supported": false,
+  "mean_p": 0.9323476998158443,
+  "rate_supported@0.5": 0.9876543209876543,
+  "support_rate_drop_vs_identity": 0.0,
+  "drop_ci95": [
+   0.0,
+   0.0
+  ],
+  "auroc_identity_vs_edit": 0.5402377686328304
+ },
+ {
+  "verifier": "minicheck_deberta_v3_large__official",
+  "premise_cond": "abstract",
+  "edit": "hedge_adverb_drop",
+  "n": 32,
+  "expected_supported": false,
+  "mean_p": 0.8931173402816057,
+  "rate_supported@0.5": 0.9375,
+  "support_rate_drop_vs_identity": 0.03125,
+  "drop_ci95": [
+   0.0,
+   0.09375
+  ],
+  "auroc_identity_vs_edit": 0.572265625
+ },
+ {
+  "verifier": "minicheck_deberta_v3_large__official",
+  "premise_cond": "abstract",
+  "edit": "causal_upgrade",
+  "n": 42,
+  "expected_supported": false,
+  "mean_p": 0.9265713216293425,
+  "rate_supported@0.5": 0.9761904761904762,
+  "support_rate_drop_vs_identity": 0.023809523809523808,
+  "drop_ci95": [
+   0.0,
+   0.07142857142857142
+  ],
+  "auroc_identity_vs_edit": 0.5736961451247166
+ },
+ {
+  "verifier": "minicheck_deberta_v3_large__official",
+  "premise_cond": "abstract",
+  "edit": "scope_drop",
+  "n": 44,
+  "expected_supported": false,
+  "mean_p": 0.9448301616040143,
+  "rate_supported@0.5": 1.0,
+  "support_rate_drop_vs_identity": 0.0,
+  "drop_ci95": [
+   0.0,
+   0.0
+  ],
+  "auroc_identity_vs_edit": 0.478047520661157
+ },
+ {
+  "verifier": "minicheck_deberta_v3_large__official",
+  "premise_cond": "abstract",
+  "edit": "quantifier_inflate",
+  "n": 27,
+  "expected_supported": false,
+  "mean_p": 0.27223702520132065,
+  "rate_supported@0.5": 0.18518518518518517,
+  "support_rate_drop_vs_identity": 0.8148148148148148,
+  "drop_ci95": [
+   0.6666666666666666,
+   0.9629629629629629
+  ],
+  "auroc_identity_vs_edit": 0.9588477366255144
+ }
+]

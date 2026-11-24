@@ -1,0 +1,26 @@
+{
+ "scifact_sha256": "11c621288d41ac144d29b13b0f8503b3820b7d6e8b1f6ff24dff335c196d76be",
+ "label": "PILOT_ONLY_NOT_CONFIRMATORY",
+ "models": {
+  "minicheck_roberta_large": {
+   "revision": "74c8919647e61ed0f71bc177d94f10930f090068",
+   "chunk_size": 400,
+   "max_len": 512,
+   "pairs_chunked": 318,
+   "inputs_truncated": 0,
+   "pairs_truncated_in_pilot_format": 156,
+   "pairs_where_token_ids_differ": 2336,
+   "n": 2336
+  },
+  "minicheck_deberta_v3_large": {
+   "revision": "2f2d01a54fa022a7ffadb76260e1ea8bc88c82bb",
+   "chunk_size": 400,
+   "max_len": 2048,
+   "pairs_chunked": 213,
+   "inputs_truncated": 0,
+   "pairs_truncated_in_pilot_format": 96,
+   "pairs_where_token_ids_differ": 0,
+   "n": 2336
+  }
+ }
+}

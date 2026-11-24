@@ -1,0 +1,19 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.apikey
+.env
+data/
+uploads/
+outputs/
+node_modules/
+# Keep article text, completed worksheets, and item-level pilot inputs local.
+audit/*.xlsx
+audit/*.jsonl
+audit/confirmatory/
+runs/*/items.jsonl
+runs/*/edit_audit_sheet.jsonl
+runs/*/launch*.json
+runs/*/raw*.jsonl
+reports/iclr2027_openreview_hits_*.json

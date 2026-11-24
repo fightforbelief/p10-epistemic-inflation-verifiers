@@ -1,0 +1,409 @@
+{"doc_id": 13070316, "edit": "quantifier_inflate", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I001"}
+{"doc_id": 36637129, "edit": "scope_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "generic", "audit_id": "I002"}
+{"doc_id": 3765739, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I003"}
+{"doc_id": 31208367, "edit": "causal_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I004"}
+{"doc_id": 5774746, "edit": "hedge_adverb_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I005"}
+{"doc_id": 437924, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I006"}
+{"doc_id": 7506409, "edit": "scope_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "generic", "audit_id": "I007"}
+{"doc_id": 21902400, "edit": "hedge_adverb_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I008"}
+{"doc_id": 17188921, "edit": "quantifier_inflate", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I009"}
+{"doc_id": 12197393, "edit": "quantifier_inflate", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I010"}
+{"doc_id": 19854744, "edit": "hedge_adverb_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I011"}
+{"doc_id": 33036897, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "no", "Q3": "yes", "Q4": "n/a", "audit_id": "I012"}
+{"doc_id": 4889228, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "no", "Q3": "yes", "Q4": "n/a", "audit_id": "I013"}
+{"doc_id": 27580223, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I014"}
+{"doc_id": 38551172, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I015"}
+{"doc_id": 8148304, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I016"}
+{"doc_id": 2506153, "edit": "quantifier_inflate", "Q1": "minor", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I017"}
+{"doc_id": 19408393, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I018"}
+{"doc_id": 22547508, "edit": "quantifier_inflate", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I019"}
+{"doc_id": 6309659, "edit": "causal_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I020"}
+{"doc_id": 8756719, "edit": "hedge_adverb_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I021"}
+{"doc_id": 1649738, "edit": "modal_strengthen", "Q1": "minor", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I022"}
+{"doc_id": 38873881, "edit": "causal_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I023"}
+{"doc_id": 20868160, "edit": "hedge_adverb_drop", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I024"}
+{"doc_id": 1546650, "edit": "modal_strengthen", "Q1": "minor", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I025"}
+{"doc_id": 169264, "edit": "hedge_adverb_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I026"}
+{"doc_id": 12685434, "edit": "scope_drop", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "existential", "audit_id": "I027"}
+{"doc_id": 30915421, "edit": "scope_drop", "Q1": "broken", "Q2": "yes", "Q3": "yes", "Q4": "existential", "audit_id": "I028"}
+{"doc_id": 18361917, "edit": "modal_strengthen", "Q1": "broken", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I029"}
+{"doc_id": 36216395, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I030"}
+{"doc_id": 6550579, "edit": "quantifier_inflate", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I031"}
+{"doc_id": 13906892, "edit": "modal_strengthen", "Q1": "minor", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I032"}
+{"doc_id": 26720366, "edit": "causal_upgrade", "Q1": "minor", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I033"}
+{"doc_id": 13290521, "edit": "causal_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I034"}
+{"doc_id": 26064662, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I035"}
+{"doc_id": 97884, "edit": "modal_strengthen", "Q1": "minor", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I036"}
+{"doc_id": 17911973, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I037"}
+{"doc_id": 23801039, "edit": "hedge_adverb_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I038"}
+{"doc_id": 7581911, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I039"}
+{"doc_id": 16527698, "edit": "causal_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I040"}
+{"doc_id": 24005548, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I041"}
+{"doc_id": 36547290, "edit": "quantifier_inflate", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I042"}
+{"doc_id": 35186640, "edit": "hedge_adverb_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I043"}
+{"doc_id": 8247469, "edit": "hedge_adverb_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I044"}
+{"doc_id": 24980622, "edit": "quantifier_inflate", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I045"}
+{"doc_id": 30226988, "edit": "hedge_adverb_drop", "Q1": "minor", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I046"}
+{"doc_id": 14252892, "edit": "causal_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I047"}
+{"doc_id": 8425533, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "no", "Q3": "yes", "Q4": "n/a", "audit_id": "I048"}
+{"doc_id": 57783564, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I049"}
+{"doc_id": 3662132, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I050"}
+{"doc_id": 11659421, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I051"}
+{"doc_id": 24237492, "edit": "causal_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I052"}
+{"doc_id": 140098548, "edit": "modal_strengthen", "Q1": "broken", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I053"}
+{"doc_id": 2194320, "edit": "quantifier_inflate", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I054"}
+{"doc_id": 29495185, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I055"}
+{"doc_id": 4421746, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I056"}
+{"doc_id": 7098463, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I057"}
+{"doc_id": 23700330, "edit": "scope_drop", "Q1": "minor", "Q2": "yes", "Q3": "no", "Q4": "", "audit_id": "I058"}
+{"doc_id": 7224632, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I059"}
+{"doc_id": 27635177, "edit": "scope_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "", "audit_id": "I060"}
+{"doc_id": 21258863, "edit": "modal_strengthen", "Q1": "minor", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I061"}
+{"doc_id": 13714201, "edit": "causal_upgrade", "Q1": "ok", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I062"}
+{"doc_id": 4442799, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I063"}
+{"doc_id": 25085979, "edit": "causal_upgrade", "Q1": "minor", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I064"}
+{"doc_id": 21274496, "edit": "modal_strengthen", "Q1": "broken", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I065"}
+{"doc_id": 7734150, "edit": "scope_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "generic", "audit_id": "I066"}
+{"doc_id": 2587396, "edit": "causal_upgrade", "Q1": "broken", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I067"}
+{"doc_id": 36357627, "edit": "modal_strengthen", "Q1": "minor", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I068"}
+{"doc_id": 27428509, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I069"}
+{"doc_id": 2682251, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I070"}
+{"doc_id": 23801039, "edit": "quantifier_inflate", "Q1": "minor", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I071"}
+{"doc_id": 90756514, "edit": "quantifier_inflate", "Q1": "minor", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I072"}
+{"doc_id": 6171953, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I073"}
+{"doc_id": 16511863, "edit": "causal_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I074"}
+{"doc_id": 30041340, "edit": "scope_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "generic", "audit_id": "I075"}
+{"doc_id": 3619931, "edit": "causal_upgrade", "Q1": "minor", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I076"}
+{"doc_id": 22059387, "edit": "modal_strengthen", "Q1": "minor", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I077"}
+{"doc_id": 15617866, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I078"}
+{"doc_id": 31591262, "edit": "scope_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "generic", "audit_id": "I079"}
+{"doc_id": 26378103, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I080"}
+{"doc_id": 21884059, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I081"}
+{"doc_id": 20851402, "edit": "scope_drop", "Q1": "broken", "Q2": "contested", "Q3": "no", "Q4": "generic", "audit_id": "I082"}
+{"doc_id": 56893404, "edit": "causal_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I083"}
+{"doc_id": 19185192, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I084"}
+{"doc_id": 2466614, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I085"}
+{"doc_id": 38551172, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I086"}
+{"doc_id": 9769310, "edit": "hedge_adverb_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I087"}
+{"doc_id": 42662816, "edit": "quantifier_inflate", "Q1": "broken", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I088"}
+{"doc_id": 11742219, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I089"}
+{"doc_id": 10790846, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I090"}
+{"doc_id": 515489, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I091"}
+{"doc_id": 26710772, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I092"}
+{"doc_id": 8814634, "edit": "causal_upgrade", "Q1": "ok", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I093"}
+{"doc_id": 27841037, "edit": "quantifier_inflate", "Q1": "broken", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I094"}
+{"doc_id": 1711571, "edit": "causal_upgrade", "Q1": "ok", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I095"}
+{"doc_id": 17000834, "edit": "causal_upgrade", "Q1": "ok", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I096"}
+{"doc_id": 23901235, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I097"}
+{"doc_id": 17324544, "edit": "causal_upgrade", "Q1": "ok", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I098"}
+{"doc_id": 35271381, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I099"}
+{"doc_id": 10765888, "edit": "causal_upgrade", "Q1": "ok", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I100"}
+{"doc_id": 9993008, "edit": "scope_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "generic", "audit_id": "I101"}
+{"doc_id": 10761515, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I102"}
+{"doc_id": 30915421, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I103"}
+{"doc_id": 19673227, "edit": "modal_strengthen", "Q1": "minor", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I104"}
+{"doc_id": 34873974, "edit": "modal_strengthen", "Q1": "minor", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I105"}
+{"doc_id": 12994780, "edit": "scope_drop", "Q1": "broken", "Q2": "yes", "Q3": "no", "Q4": "generic", "audit_id": "I106"}
+{"doc_id": 4325398, "edit": "scope_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "generic", "audit_id": "I107"}
+{"doc_id": 7285256, "edit": "quantifier_inflate", "Q1": "minor", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I108"}
+{"doc_id": 39593548, "edit": "hedge_adverb_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I109"}
+{"doc_id": 68317730, "edit": "hedge_adverb_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I110"}
+{"doc_id": 735130, "edit": "scope_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "existential", "audit_id": "I111"}
+{"doc_id": 25493293, "edit": "modal_strengthen", "Q1": "broken", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I112"}
+{"doc_id": 2402323, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I113"}
+{"doc_id": 22505190, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I114"}
+{"doc_id": 22180793, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "no", "Q3": "yes", "Q4": "n/a", "audit_id": "I115"}
+{"doc_id": 38882175, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I116"}
+{"doc_id": 5735492, "edit": "causal_upgrade", "Q1": "ok", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I117"}
+{"doc_id": 42080024, "edit": "scope_drop", "Q1": "broken", "Q2": "contested", "Q3": "no", "Q4": "generic", "audit_id": "I118"}
+{"doc_id": 12232678, "edit": "quantifier_inflate", "Q1": "broken", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I119"}
+{"doc_id": 9160947, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I120"}
+{"doc_id": 5855168, "edit": "quantifier_inflate", "Q1": "minor", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I121"}
+{"doc_id": 1546650, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I122"}
+{"doc_id": 32797183, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I123"}
+{"doc_id": 4388470, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I124"}
+{"doc_id": 32324430, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I125"}
+{"doc_id": 17933691, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I126"}
+{"doc_id": 7583104, "edit": "scope_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "generic", "audit_id": "I127"}
+{"doc_id": 42601237, "edit": "hedge_adverb_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I128"}
+{"doc_id": 5839365, "edit": "quantifier_inflate", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I129"}
+{"doc_id": 28904104, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I130"}
+{"doc_id": 6766459, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I131"}
+{"doc_id": 5560962, "edit": "quantifier_inflate", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I132"}
+{"doc_id": 4544916, "edit": "quantifier_inflate", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I133"}
+{"doc_id": 1428840, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I134"}
+{"doc_id": 23912923, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I135"}
+{"doc_id": 43334921, "edit": "causal_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I136"}
+{"doc_id": 15790930, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I137"}
+{"doc_id": 4399268, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I138"}
+{"doc_id": 17209919, "edit": "modal_strengthen", "Q1": "broken", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I139"}
+{"doc_id": 16728949, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I140"}
+{"doc_id": 520579, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I141"}
+{"doc_id": 40005757, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I142"}
+{"doc_id": 21216726, "edit": "causal_upgrade", "Q1": "ok", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I143"}
+{"doc_id": 12240507, "edit": "scope_drop", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "existential", "audit_id": "I144"}
+{"doc_id": 12197393, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I145"}
+{"doc_id": 30152134, "edit": "scope_drop", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "existential", "audit_id": "I146"}
+{"doc_id": 7688110, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I147"}
+{"doc_id": 6372244, "edit": "scope_drop", "Q1": "broken", "Q2": "contested", "Q3": "yes", "Q4": "existential", "audit_id": "I148"}
+{"doc_id": 42520882, "edit": "modal_strengthen", "Q1": "minor", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I149"}
+{"doc_id": 5271210, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I150"}
+{"doc_id": 11288846, "edit": "modal_strengthen", "Q1": "minor", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I151"}
+{"doc_id": 14434123, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I152"}
+{"doc_id": 12443371, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I153"}
+{"doc_id": 17088791, "edit": "modal_strengthen", "Q1": "broken", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I154"}
+{"doc_id": 16728949, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I155"}
+{"doc_id": 32797183, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I156"}
+{"doc_id": 20645538, "edit": "modal_strengthen", "Q1": "broken", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I157"}
+{"doc_id": 38477436, "edit": "scope_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "generic", "audit_id": "I158"}
+{"doc_id": 35766603, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I159"}
+{"doc_id": 2380002, "edit": "hedge_adverb_drop", "Q1": "minor", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I160"}
+{"doc_id": 36003142, "edit": "modal_strengthen", "Q1": "broken", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I161"}
+{"doc_id": 15128866, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I162"}
+{"doc_id": 37336085, "edit": "scope_drop", "Q1": "broken", "Q2": "contested", "Q3": "yes", "Q4": "existential", "audit_id": "I163"}
+{"doc_id": 16167746, "edit": "causal_upgrade", "Q1": "ok", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I164"}
+{"doc_id": 40005757, "edit": "hedge_adverb_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I165"}
+{"doc_id": 28517384, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I166"}
+{"doc_id": 15948830, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I167"}
+{"doc_id": 2734421, "edit": "scope_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "generic", "audit_id": "I168"}
+{"doc_id": 13831842, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I169"}
+{"doc_id": 2494748, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I170"}
+{"doc_id": 12086818, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I171"}
+{"doc_id": 2158516, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I172"}
+{"doc_id": 21246752, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I173"}
+{"doc_id": 13071728, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I174"}
+{"doc_id": 5273056, "edit": "scope_drop", "Q1": "minor", "Q2": "yes", "Q3": "no", "Q4": "generic", "audit_id": "I175"}
+{"doc_id": 22682497, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I176"}
+{"doc_id": 4550036, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I177"}
+{"doc_id": 3619931, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I178"}
+{"doc_id": 4550036, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I179"}
+{"doc_id": 38023457, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I180"}
+{"doc_id": 31616203, "edit": "causal_upgrade", "Q1": "ok", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I181"}
+{"doc_id": 17163294, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I182"}
+{"doc_id": 25050969, "edit": "modal_strengthen", "Q1": "minor", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I183"}
+{"doc_id": 26907074, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I184"}
+{"doc_id": 18816720, "edit": "hedge_adverb_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I185"}
+{"doc_id": 23649163, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I186"}
+{"doc_id": 25315295, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I187"}
+{"doc_id": 5323845, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I188"}
+{"doc_id": 21425864, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I189"}
+{"doc_id": 7548577, "edit": "modal_strengthen", "Q1": "minor", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I190"}
+{"doc_id": 118568, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I191"}
+{"doc_id": 26409363, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I192"}
+{"doc_id": 9513785, "edit": "causal_upgrade", "Q1": "minor", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I193"}
+{"doc_id": 37437064, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I194"}
+{"doc_id": 22521091, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I195"}
+{"doc_id": 253672, "edit": "hedge_adverb_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I196"}
+{"doc_id": 9225850, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I197"}
+{"doc_id": 14075252, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I198"}
+{"doc_id": 22036571, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I199"}
+{"doc_id": 23601616, "edit": "scope_drop", "Q1": "minor", "Q2": "contested", "Q3": "yes", "Q4": "existential", "audit_id": "I200"}
+{"doc_id": 26064662, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I201"}
+{"doc_id": 20460020, "edit": "hedge_adverb_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I202"}
+{"doc_id": 9752604, "edit": "scope_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "generic", "audit_id": "I203"}
+{"doc_id": 5596332, "edit": "causal_upgrade", "Q1": "ok", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I204"}
+{"doc_id": 14338915, "edit": "scope_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "generic", "audit_id": "I205"}
+{"doc_id": 9169645, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I206"}
+{"doc_id": 9167230, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I207"}
+{"doc_id": 3360421, "edit": "scope_drop", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "existential", "audit_id": "I208"}
+{"doc_id": 2296264, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I209"}
+{"doc_id": 21767325, "edit": "hedge_adverb_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I210"}
+{"doc_id": 15129362, "edit": "hedge_adverb_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I211"}
+{"doc_id": 16550075, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I212"}
+{"doc_id": 19047331, "edit": "causal_upgrade", "Q1": "ok", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I213"}
+{"doc_id": 25830701, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I214"}
+{"doc_id": 44572913, "edit": "hedge_adverb_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I215"}
+{"doc_id": 25148216, "edit": "scope_drop", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "existential", "audit_id": "I216"}
+{"doc_id": 27188320, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I217"}
+{"doc_id": 11581157, "edit": "hedge_adverb_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I218"}
+{"doc_id": 39550665, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I219"}
+{"doc_id": 4418112, "edit": "scope_drop", "Q1": "minor", "Q2": "yes", "Q3": "yes", "Q4": "existential", "audit_id": "I220"}
+{"doc_id": 26089649, "edit": "scope_drop", "Q1": "minor", "Q2": "yes", "Q3": "no", "Q4": "generic", "audit_id": "I221"}
+{"doc_id": 23901235, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I222"}
+{"doc_id": 24555417, "edit": "hedge_adverb_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I223"}
+{"doc_id": 8520041, "edit": "quantifier_inflate", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I224"}
+{"doc_id": 12922760, "edit": "scope_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "generic", "audit_id": "I225"}
+{"doc_id": 5764562, "edit": "quantifier_inflate", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I226"}
+{"doc_id": 8529693, "edit": "causal_upgrade", "Q1": "ok", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I227"}
+{"doc_id": 2266471, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I228"}
+{"doc_id": 13312471, "edit": "modal_strengthen", "Q1": "broken", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I229"}
+{"doc_id": 19824183, "edit": "modal_strengthen", "Q1": "broken", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I230"}
+{"doc_id": 40721190, "edit": "quantifier_inflate", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I231"}
+{"doc_id": 6327940, "edit": "modal_strengthen", "Q1": "minor", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I232"}
+{"doc_id": 2272614, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I233"}
+{"doc_id": 4312169, "edit": "causal_upgrade", "Q1": "ok", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I234"}
+{"doc_id": 6123521, "edit": "modal_strengthen", "Q1": "broken", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I235"}
+{"doc_id": 2787558, "edit": "quantifier_inflate", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I236"}
+{"doc_id": 520579, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I237"}
+{"doc_id": 19970015, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I238"}
+{"doc_id": 3623127, "edit": "modal_strengthen", "Q1": "minor", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I239"}
+{"doc_id": 23122306, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I240"}
+{"doc_id": 14719322, "edit": "report_verb_upgrade", "Q1": "minor", "Q2": "contested", "Q3": "yes", "Q4": "n/a", "audit_id": "I241"}
+{"doc_id": 1332250, "edit": "quantifier_inflate", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I242"}
+{"doc_id": 1542437, "edit": "hedge_adverb_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I243"}
+{"doc_id": 10247282, "edit": "scope_drop", "Q1": "broken", "Q2": "contested", "Q3": "yes", "Q4": "existential", "audit_id": "I244"}
+{"doc_id": 13282296, "edit": "causal_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I245"}
+{"doc_id": 11581157, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I246"}
+{"doc_id": 13097856, "edit": "quantifier_inflate", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I247"}
+{"doc_id": 1022115, "edit": "scope_drop", "Q1": "minor", "Q2": "yes", "Q3": "no", "Q4": "generic", "audit_id": "I248"}
+{"doc_id": 13771184, "edit": "causal_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I249"}
+{"doc_id": 10145528, "edit": "causal_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I250"}
+{"doc_id": 13441037, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I251"}
+{"doc_id": 26611094, "edit": "causal_upgrade", "Q1": "broken", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I252"}
+{"doc_id": 14834714, "edit": "quantifier_inflate", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I253"}
+{"doc_id": 27900414, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I254"}
+{"doc_id": 13764090, "edit": "scope_drop", "Q1": "minor", "Q2": "contested", "Q3": "no", "Q4": "generic", "audit_id": "I255"}
+{"doc_id": 6259170, "edit": "causal_upgrade", "Q1": "ok", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I256"}
+{"doc_id": 19185192, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I257"}
+{"doc_id": 5323845, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I258"}
+{"doc_id": 19752008, "edit": "hedge_adverb_drop", "Q1": "broken", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I259"}
+{"doc_id": 35962023, "edit": "modal_strengthen", "Q1": "minor", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I260"}
+{"doc_id": 11939159, "edit": "causal_upgrade", "Q1": "ok", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I261"}
+{"doc_id": 21767325, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I262"}
+{"doc_id": 1944452, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I263"}
+{"doc_id": 52865789, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I264"}
+{"doc_id": 13000926, "edit": "modal_strengthen", "Q1": "minor", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I265"}
+{"doc_id": 26117607, "edit": "modal_strengthen", "Q1": "minor", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I266"}
+{"doc_id": 25157790, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I267"}
+{"doc_id": 27460509, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I268"}
+{"doc_id": 24097933, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I269"}
+{"doc_id": 11616424, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I270"}
+{"doc_id": 17506075, "edit": "scope_drop", "Q1": "broken", "Q2": "contested", "Q3": "no", "Q4": "generic", "audit_id": "I271"}
+{"doc_id": 6407356, "edit": "quantifier_inflate", "Q1": "minor", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I272"}
+{"doc_id": 27768226, "edit": "hedge_adverb_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I273"}
+{"doc_id": 27615329, "edit": "causal_upgrade", "Q1": "ok", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I274"}
+{"doc_id": 20148808, "edit": "scope_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "generic", "audit_id": "I275"}
+{"doc_id": 19315511, "edit": "hedge_adverb_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I276"}
+{"doc_id": 40412980, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I277"}
+{"doc_id": 25994317, "edit": "scope_drop", "Q1": "minor", "Q2": "yes", "Q3": "no", "Q4": "generic", "audit_id": "I278"}
+{"doc_id": 14075252, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I279"}
+{"doc_id": 14340571, "edit": "modal_strengthen", "Q1": "broken", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I280"}
+{"doc_id": 40500723, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I281"}
+{"doc_id": 2931832, "edit": "causal_upgrade", "Q1": "ok", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I282"}
+{"doc_id": 35777860, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I283"}
+{"doc_id": 22198971, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I284"}
+{"doc_id": 23509113, "edit": "hedge_adverb_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I285"}
+{"doc_id": 14719322, "edit": "modal_strengthen", "Q1": "broken", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I286"}
+{"doc_id": 4700428, "edit": "scope_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "generic", "audit_id": "I287"}
+{"doc_id": 22521091, "edit": "modal_strengthen", "Q1": "minor", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I288"}
+{"doc_id": 2296264, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I289"}
+{"doc_id": 493346, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I290"}
+{"doc_id": 22080671, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I291"}
+{"doc_id": 40900242, "edit": "modal_strengthen", "Q1": "broken", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I292"}
+{"doc_id": 21878751, "edit": "hedge_adverb_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I293"}
+{"doc_id": 17876040, "edit": "hedge_adverb_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I294"}
+{"doc_id": 11983390, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I295"}
+{"doc_id": 14711483, "edit": "modal_strengthen", "Q1": "broken", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I296"}
+{"doc_id": 24396137, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I297"}
+{"doc_id": 26058927, "edit": "causal_upgrade", "Q1": "ok", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I298"}
+{"doc_id": 33684572, "edit": "scope_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "generic", "audit_id": "I299"}
+{"doc_id": 25104843, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I300"}
+{"doc_id": 23702805, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I301"}
+{"doc_id": 4423559, "edit": "scope_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "existential", "audit_id": "I302"}
+{"doc_id": 33723822, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I303"}
+{"doc_id": 3083927, "edit": "modal_strengthen", "Q1": "minor", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I304"}
+{"doc_id": 21053753, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I305"}
+{"doc_id": 22871664, "edit": "hedge_adverb_drop", "Q1": "broken", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I306"}
+{"doc_id": 38551172, "edit": "causal_upgrade", "Q1": "broken", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I307"}
+{"doc_id": 6936141, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I308"}
+{"doc_id": 13492264, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I309"}
+{"doc_id": 21164071, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I310"}
+{"doc_id": 24625323, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I311"}
+{"doc_id": 17967608, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I312"}
+{"doc_id": 7098463, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I313"}
+{"doc_id": 19004126, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I314"}
+{"doc_id": 25725663, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I315"}
+{"doc_id": 35004872, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I316"}
+{"doc_id": 6407356, "edit": "scope_drop", "Q1": "broken", "Q2": "contested", "Q3": "no", "Q4": "generic", "audit_id": "I317"}
+{"doc_id": 37699461, "edit": "scope_drop", "Q1": "broken", "Q2": "contested", "Q3": "no", "Q4": "generic", "audit_id": "I318"}
+{"doc_id": 8596357, "edit": "causal_upgrade", "Q1": "ok", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I319"}
+{"doc_id": 21048969, "edit": "causal_upgrade", "Q1": "ok", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I320"}
+{"doc_id": 4361990, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I321"}
+{"doc_id": 8246090, "edit": "modal_strengthen", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "n/a", "audit_id": "I322"}
+{"doc_id": 38882175, "edit": "scope_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "generic", "audit_id": "I323"}
+{"doc_id": 26378103, "edit": "scope_drop", "Q1": "ok", "Q2": "yes", "Q3": "no", "Q4": "generic", "audit_id": "I324"}
+{"doc_id": 2601135, "edit": "causal_upgrade", "Q1": "ok", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I325"}
+{"doc_id": 4388470, "edit": "modal_strengthen", "Q1": "broken", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I326"}
+{"doc_id": 2251426, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I327"}
+{"doc_id": 19752008, "edit": "modal_strengthen", "Q1": "minor", "Q2": "contested", "Q3": "no", "Q4": "n/a", "audit_id": "I328"}
+{"doc_id": 17088791, "edit": "report_verb_upgrade", "Q1": "ok", "Q2": "yes", "Q3": "yes", "Q4": "n/a", "audit_id": "I329"}
+{"doc_id": 21164071, "edit": "weaken", "C1": "as_intended", "audit_id": "C001"}
+{"doc_id": 520579, "edit": "negate", "C1": "as_intended", "audit_id": "C002"}
+{"doc_id": 22521091, "edit": "weaken", "C1": "as_intended", "audit_id": "C003"}
+{"doc_id": 13771184, "edit": "negate", "C1": "as_intended", "audit_id": "C004"}
+{"doc_id": 2734421, "edit": "weaken", "C1": "as_intended", "audit_id": "C005"}
+{"doc_id": 4442799, "edit": "negate", "C1": "as_intended", "audit_id": "C006"}
+{"doc_id": 27460509, "edit": "negate", "C1": "as_intended", "audit_id": "C007"}
+{"doc_id": 7548577, "edit": "weaken", "C1": "broken", "audit_id": "C008"}
+{"doc_id": 5839365, "edit": "weaken", "C1": "as_intended", "audit_id": "C009"}
+{"doc_id": 23801039, "edit": "negate", "C1": "as_intended", "audit_id": "C010"}
+{"doc_id": 26710772, "edit": "negate", "C1": "as_intended", "audit_id": "C011"}
+{"doc_id": 4421746, "edit": "negate", "C1": "as_intended", "audit_id": "C012"}
+{"doc_id": 19185192, "edit": "weaken", "C1": "broken", "audit_id": "C013"}
+{"doc_id": 20645538, "edit": "weaken", "C1": "as_intended", "audit_id": "C014"}
+{"doc_id": 2272614, "edit": "weaken", "C1": "as_intended", "audit_id": "C015"}
+{"doc_id": 6309659, "edit": "negate", "C1": "as_intended", "audit_id": "C016"}
+{"doc_id": 26117607, "edit": "negate", "C1": "as_intended", "audit_id": "C017"}
+{"doc_id": 19004126, "edit": "weaken", "C1": "broken", "audit_id": "C018"}
+{"doc_id": 11939159, "edit": "weaken", "C1": "broken", "audit_id": "C019"}
+{"doc_id": 35962023, "edit": "weaken", "C1": "as_intended", "audit_id": "C020"}
+{"doc_id": 38551172, "edit": "negate", "C1": "broken", "audit_id": "C021"}
+{"doc_id": 13000926, "edit": "weaken", "C1": "as_intended", "audit_id": "C022"}
+{"doc_id": 5271210, "edit": "weaken", "C1": "as_intended", "audit_id": "C023"}
+{"doc_id": 6259170, "edit": "negate", "C1": "as_intended", "audit_id": "C024"}
+{"doc_id": 7583104, "edit": "weaken", "C1": "as_intended", "audit_id": "C025"}
+{"doc_id": 27188320, "edit": "negate", "C1": "as_intended", "audit_id": "C026"}
+{"doc_id": 20460020, "edit": "weaken", "C1": "as_intended", "audit_id": "C027"}
+{"doc_id": 34873974, "edit": "weaken", "C1": "as_intended", "audit_id": "C028"}
+{"doc_id": 21884059, "edit": "negate", "C1": "broken", "audit_id": "C029"}
+{"doc_id": 5735492, "edit": "negate", "C1": "as_intended", "audit_id": "C030"}
+{"doc_id": 24396137, "edit": "weaken", "C1": "as_intended", "audit_id": "C031"}
+{"doc_id": 19752008, "edit": "weaken", "C1": "as_intended", "audit_id": "C032"}
+{"doc_id": 36547290, "edit": "negate", "C1": "as_intended", "audit_id": "C033"}
+{"doc_id": 6171953, "edit": "weaken", "C1": "as_intended", "audit_id": "C034"}
+{"doc_id": 8520041, "edit": "weaken", "C1": "as_intended", "audit_id": "C035"}
+{"doc_id": 43334921, "edit": "negate", "C1": "broken", "audit_id": "C036"}
+{"doc_id": 15129362, "edit": "negate", "C1": "as_intended", "audit_id": "C037"}
+{"doc_id": 13764090, "edit": "weaken", "C1": "as_intended", "audit_id": "C038"}
+{"doc_id": 44572913, "edit": "weaken", "C1": "as_intended", "audit_id": "C039"}
+{"doc_id": 24980622, "edit": "weaken", "C1": "as_intended", "audit_id": "C040"}
+{"doc_id": 11581157, "edit": "weaken", "C1": "as_intended", "audit_id": "C041"}
+{"doc_id": 2251426, "edit": "weaken", "C1": "as_intended", "audit_id": "C042"}
+{"doc_id": 8596357, "edit": "negate", "C1": "as_intended", "audit_id": "C043"}
+{"doc_id": 10765888, "edit": "weaken", "C1": "as_intended", "audit_id": "C044"}
+{"doc_id": 7548577, "edit": "negate", "C1": "as_intended", "audit_id": "C045"}
+{"doc_id": 3662132, "edit": "negate", "C1": "broken", "audit_id": "C046"}
+{"doc_id": 4312169, "edit": "negate", "C1": "as_intended", "audit_id": "C047"}
+{"doc_id": 90756514, "edit": "negate", "C1": "as_intended", "audit_id": "C048"}
+{"doc_id": 35962023, "edit": "negate", "C1": "as_intended", "audit_id": "C049"}
+{"doc_id": 12994780, "edit": "weaken", "C1": "as_intended", "audit_id": "C050"}
+{"doc_id": 23601616, "edit": "weaken", "C1": "as_intended", "audit_id": "C051"}
+{"doc_id": 23912923, "edit": "negate", "C1": "broken", "audit_id": "C052"}
+{"doc_id": 19004126, "edit": "negate", "C1": "as_intended", "audit_id": "C053"}
+{"doc_id": 20851402, "edit": "negate", "C1": "as_intended", "audit_id": "C054"}
+{"doc_id": 22180793, "edit": "negate", "C1": "as_intended", "audit_id": "C055"}
+{"doc_id": 10761515, "edit": "negate", "C1": "as_intended", "audit_id": "C056"}
+{"doc_id": 16511863, "edit": "negate", "C1": "as_intended", "audit_id": "C057"}
+{"doc_id": 21884059, "edit": "weaken", "C1": "broken", "audit_id": "C058"}
+{"doc_id": 38551172, "edit": "weaken", "C1": "broken", "audit_id": "C059"}
+{"doc_id": 9513785, "edit": "negate", "C1": "as_intended", "audit_id": "C060"}
+{"doc_id": 35271381, "edit": "negate", "C1": "as_intended", "audit_id": "C061"}
+{"doc_id": 19047331, "edit": "weaken", "C1": "as_intended", "audit_id": "C062"}
+{"doc_id": 36003142, "edit": "negate", "C1": "as_intended", "audit_id": "C063"}
+{"doc_id": 23700330, "edit": "weaken", "C1": "as_intended", "audit_id": "C064"}
+{"doc_id": 12086818, "edit": "weaken", "C1": "as_intended", "audit_id": "C065"}
+{"doc_id": 5273056, "edit": "negate", "C1": "as_intended", "audit_id": "C066"}
+{"doc_id": 2931832, "edit": "weaken", "C1": "as_intended", "audit_id": "C067"}
+{"doc_id": 27841037, "edit": "negate", "C1": "as_intended", "audit_id": "C068"}
+{"doc_id": 25493293, "edit": "negate", "C1": "broken", "audit_id": "C069"}
+{"doc_id": 19673227, "edit": "weaken", "C1": "broken", "audit_id": "C070"}
+{"doc_id": 56893404, "edit": "negate", "C1": "as_intended", "audit_id": "C071"}
+{"doc_id": 21048969, "edit": "negate", "C1": "as_intended", "audit_id": "C072"}
+{"doc_id": 1542437, "edit": "negate", "C1": "as_intended", "audit_id": "C073"}
+{"doc_id": 68317730, "edit": "negate", "C1": "as_intended", "audit_id": "C074"}
+{"doc_id": 17088791, "edit": "weaken", "C1": "as_intended", "audit_id": "C075"}
+{"doc_id": 3083927, "edit": "weaken", "C1": "as_intended", "audit_id": "C076"}
+{"doc_id": 43334921, "edit": "weaken", "C1": "as_intended", "audit_id": "C077"}
+{"doc_id": 17967608, "edit": "weaken", "C1": "as_intended", "audit_id": "C078"}
+{"doc_id": 37699461, "edit": "weaken", "C1": "as_intended", "audit_id": "C079"}
+{"doc_id": 13290521, "edit": "negate", "C1": "broken", "audit_id": "C080"}

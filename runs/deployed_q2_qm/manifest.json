@@ -1,0 +1,51 @@
+{
+ "scifact_sha256": "11c621288d41ac144d29b13b0f8503b3820b7d6e8b1f6ff24dff335c196d76be",
+ "seed": 20261119,
+ "n_pairs": 1168,
+ "premise_cond": "abstract",
+ "spec": "specs\\default_prompts_20261119.json",
+ "spec_provenance": {
+  "ragas": {
+   "version": "0.4.4",
+   "wheel_sha256": "75c5edbcb377f85d4db89406f96a1716d4d586078f027ec495b0f529b620c6a9"
+  },
+  "trulens-feedback": {
+   "version": "2.16.0",
+   "wheel_sha256": "32b153b7461d767dc2d0150d9251ff4843b5a737c2e0bb32e4f9b3616cbc1ba6"
+  },
+  "deepeval": {
+   "version": "4.3.4",
+   "wheel_sha256": "b3d15701c758134ad16d2e076fefe721f1574ebdefcce80bb10cbb04772569e3"
+  },
+  "llama-index-core": {
+   "version": "0.14.26",
+   "wheel_sha256": "6a7189009644ac3fb11c209d3767d35dfb5eea0c874c7a09778ff5c3839694cc"
+  },
+  "arize-phoenix-evals": {
+   "version": "3.10.0",
+   "wheel_sha256": "6548b2b8d258e731d0bb717a1d05aef52bf13c1a039f589f80cf4ebc3a83460c"
+  }
+ },
+ "query": "What does this abstract say?",
+ "label": "PILOT_ONLY_NOT_CONFIRMATORY",
+ "same_pairs_as": "runs/pilot_v1 (abstract premise)",
+ "runs": {
+  "phoenix_faithfulness__qwen3_7_max": {
+   "provider": "bailian",
+   "model": "qwen3.7-max-2026-06-08",
+   "n": 1168,
+   "failures": 0,
+   "usage": {
+    "prompt": 1127378,
+    "completion": 110798,
+    "pairs_with_usage": 1168
+   },
+   "seconds_this_session": 258.97
+  },
+  "tokens__qwen3_7_max": {
+   "prompt": 1127378,
+   "completion": 110798
+  }
+ },
+ "total_seconds": 260.99
+}

@@ -1,0 +1,23 @@
+{
+  "status": "FROZEN_FOR_SAMPLING_ONLY",
+  "date": "2026-11-24",
+  "researcher_decision": "Approved the union exclusion and blinded packet after primary synthetic tests and MiniCheck package check; separate authorization for formal scoring after human labels.",
+  "pilot_exclusions": 339,
+  "windows_tests_passed": 51,
+  "package_agreement_per_checkpoint": "100/100",
+  "files": {
+    "docs/PROTOCOL_DRAFT_v0.3_20261124.md": "62c23ad83d100ff3dfb7f536655e6a5dc6ba94c9459664c00c06034b2479a6d6",
+    "docs/SAMPLING_FREEZE_20261124.md": "698c8bb45c2a96e5ed855171269f99c9732c7ddd302c50ecbd5369f8996b89a8",
+    "src/perturb.py": "fd69287f3bad10833e6ed45c8b8d187938769c62447761762eb23c07db37e78f",
+    "src/perturb_v2.py": "db9c0c3fafdb794d503a02dd5af063fad12b4d1b42a5ad1cca2f16fb86e0466f",
+    "scripts/confirmation_sample.py": "47f1bd6362f2503bee4b1e3e01f2b09e850e3216fdf6c2aa5f61ef017c487b85",
+    "scripts/primary_analysis.py": "771a9185b4c1739f0608c8ade0564a0e5ed2cb172fbe25a163ade8f7b16f0cf3",
+    "scripts/llm_judge.py": "7af1c6d2ea526e184cab9da281d3189e9aa4b75b565a555f55056e28748f0082",
+    "scripts/api_judge.py": "7fec5b34c08ec95646d4ebb35772dc95f57ce5fd7f9a61399b00d105c43c5e5b",
+    "specs/default_prompts_20261119.json": "0278da68248e737475e5ba13d4376c8cde20b813efd916e435e8a60fefa643fe",
+    "requirements-lock.txt": "b9d522fbe0397fb83ad6632ce186f1adffc8702ed0549fcf0f965982b9d5d35d",
+    "requirements-confirmation.txt": "8aca46dad3b0d9b9ba93bfc0f1baf8b2886aab6e85ebfdfc02524d10ecf4c894",
+    "runs/pilot_v0/items.jsonl": "98f5d4b213dad4db2dd9d2fbabd68be1fb4d65a68ea2505a6405e5f8468a871c",
+    "runs/pilot_v1/items.jsonl": "1deb326f46058fce7e22be74365b371ff35fa84535eb21613d43ddd803b05c76"
+  }
+}
