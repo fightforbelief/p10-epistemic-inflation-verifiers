@@ -1,0 +1,1 @@
+runs/**/*.jsonl -text whitespace=cr-at-eol

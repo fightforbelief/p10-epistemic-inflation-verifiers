@@ -2,6 +2,8 @@
 
 **2026-11-24 · 正式盲标已发放，等待人工回填。** 样本排除了两轮试点的全部 339 篇论文。先阅读 [盲标交付记录](docs/BLIND_RELEASE_20261124.md) 和 [抽样冻结补充](docs/SAMPLING_FREEZE_20261124.md)。历史试点只用于定设计。[结果论文工作稿](paper/manuscript.md) 已有引言、方法和解释范围，正式结果待盲标、标签冻结及另行批准打分后补入。
 
+[真实库抽查](reports/NATIVE_LIBRARY_CHECK_20261124.md) 已完成六个流程各 50 对；Phoenix hallucination 复现低于门槛，正式比较排除。推理模式已完成两种评审、两种提示的[成本预试](reports/REASONING_BUDGET_20261124.md)。
+
 原始试点材料和盲标工作簿保存在项目本地。复现者可用官方 SciFact 归档和公开句子索引，通过 Windows 项目环境运行 `scripts/restore_pilot_items.py`，恢复抽样程序所需的两份试点索引原件，再按冻结清单复查。以下为项目沿革。
 
 ---
