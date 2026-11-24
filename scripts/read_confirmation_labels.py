@@ -21,6 +21,9 @@ def read(wb, roster):
         raise ValueError("Workbook sheets differ from the issued packet")
     for edit, sheet in SHEETS.items():
         ws = wb[sheet]
+        if ws.max_row is None:
+            # Excel permits omitting the sheet dimension. Inspect the actual cells.
+            ws.calculate_dimension(force=True)
         if ws.max_row != 1+len(grouped[edit]):
             raise ValueError(f"{sheet}: row count differs from the issued packet")
         valid = 0

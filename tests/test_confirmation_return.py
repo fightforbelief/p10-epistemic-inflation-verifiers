@@ -1,7 +1,8 @@
 import sys
 import unittest
+from io import BytesIO
 from pathlib import Path
-from openpyxl import Workbook
+from openpyxl import Workbook, load_workbook
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/"scripts"))
 from read_confirmation_labels import SHEETS, read
 
@@ -24,6 +25,23 @@ def fixture():
 
 
 class TestReturn(unittest.TestCase):
+    def test_read_only_workbook_without_sheet_dimensions(self):
+        original, rows = fixture()
+        streamed = Workbook(write_only=True)
+        for sheet in original:
+            copy = streamed.create_sheet(sheet.title)
+            for values in sheet.values:
+                copy.append(values)
+        with BytesIO() as buffer:
+            streamed.save(buffer)
+            buffer.seek(0)
+            returned = load_workbook(buffer, read_only=True)
+            try:
+                self.assertIsNone(returned["Modal"].max_row)
+                self.assertEqual(read(returned, rows), read(original, rows))
+            finally:
+                returned.close()
+
     def test_stop_and_context(self):
         wb,rows=fixture()
         self.assertEqual(len(read(wb,rows)),len(rows)-1)
