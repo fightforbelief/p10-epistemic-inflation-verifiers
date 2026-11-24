@@ -1,8 +1,10 @@
-# Full abstracts increase MiniCheck acceptance of overstated scientific claims
+# Surrounding text raises MiniCheck acceptance of overstated scientific claims
 
 Yunjie Guo and Hanqing Yang · Independent Researcher, Suzhou, China
 
 **P10 的正式主实验已完成。** 在 200 条经人工逐条判为整篇摘要仍不足以支持的情态加强主张中，同一句改写从单句证据改为整篇摘要后，MiniCheck-RoBERTa 的接受率从 36.5% 升至 91.5%，MiniCheck-DeBERTa 从 29.0% 升至 87.5%。在证据固定时，显式要求核对断言强度使 DeepSeek、Qwen 的接受率分别下降 24.0 和 61.5 个百分点。六项预定检验及相应对照均达到门槛。本文的结论限于规则生成、经单人审核的 SciFact 编辑。
+
+**等长对照。** 把原句放回同一词位置、用其他论文的文字填足原摘要长度后，RoBERTa 和 DeBERTa 对同一批改写的接受率达到 88.5% 和 71.0%。真实摘要相对填充条件分别再高 3.0 和 16.5 个百分点。仅看三个输入都只有一个分块的文档，填充仍显著提高接受率。该比较使用 400 次本地判定，属于主实验后的描述性补充。[方案](docs/MATCHED_CONTEXT_ADDENDUM.md) · [配对统计](reports/matched_context.json)
 
 - [论文 PDF](paper/manuscript.pdf) · [可编辑文稿](paper/manuscript.md)
 - [正式结果、用量与复核记录](reports/PRIMARY_RESULTS_20261124.md) · [六项检验完整导出](reports/primary_decisions.json)

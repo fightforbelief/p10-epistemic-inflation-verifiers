@@ -1,4 +1,4 @@
-# Full abstracts increase MiniCheck acceptance of overstated scientific claims
+# Surrounding text raises MiniCheck acceptance of overstated scientific claims
 
 Yunjie Guo and Hanqing Yang  
 Independent Researcher, Suzhou, China  
@@ -6,13 +6,15 @@ Correspondence to Hanqing Yang, hanqing.yang189@gmail.com
 
 ## Abstract
 
-A scientific claim can preserve the wording of its source while making a stronger assertion. We tested whether grounding a verifier in the full abstract changes its acceptance of claims whose stronger wording a human judged unsupported by that abstract. After excluding 339 pilot documents, we froze labels for 779 focal SciFact documents, including 200 eligible modal edits and 150 eligible lexical hedge edits. On the same 200 modal claims, MiniCheck-RoBERTa accepted 36.5% with the source sentence and 91.5% with the abstract. MiniCheck-DeBERTa accepted 29.0% and 87.5%, respectively. The paired increases were 55.0 and 58.5 percentage points, with multiplicity-adjusted one-sided lower bounds of 46.0 and 50.0 points. With the abstract held fixed, instructions to check evidential strength reduced modal acceptance by 24.0 points for DeepSeek-V4-Pro and 61.5 points for Qwen3.7-Max. Observed acceptance losses on copied and weakened claims were below one point for both judges. These findings identify a context-sensitive false-acceptance pattern in two encoders and a prompt-sensitive reduction in two API judges. They concern rule-generated scientific edits assessed by one reader.
+A paper may report that an effect is possible while its citation states that the effect will occur. We tested two MiniCheck encoders on 200 such modal edits that a human judged unsupported even by the full abstract. With the edited claim held fixed, replacing the qualified source sentence with the abstract increased acceptance from 36.5% to 91.5% for RoBERTa and from 29.0% to 87.5% for DeBERTa. In a subsequent descriptive control, we surrounded the same sentence with words from other abstracts, matching the original word count and sentence position. Acceptance rose to 88.5% and 71.0%, respectively. The original abstract therefore yielded a further 3.0 percentage points for RoBERTa (paired 95% interval, −1.5 to 7.5) and 16.5 for DeBERTa (10.5 to 23.0). The increases with donor text also appeared when every input fit in a single model chunk. In a separate confirmatory comparison, an explicit instruction to check evidential strength reduced modal acceptance by 24.0 points for DeepSeek and 61.5 for Qwen, with observed acceptance losses below one point on copied and weakened controls. These results distinguish sensitivity to surrounding text from the additional contribution of the original context on a single-reader, rule-edited scientific benchmark.
 
 ## Introduction
 
 A paper may report that a treatment *may* improve an outcome. Replacing *may* with *will* preserves the entities and direction of the effect, but commits the author to a stronger conclusion. A citation checker that rewards close wording can therefore accept a claim that its source only entertains as a possibility. For a scientific reader the relevant question is whether the cited evidence warrants the claim at its stated strength.
 
 Wuehrl et al. (2024) document changes in certainty, causality and generality as scientific findings enter public reporting. Nnamdi et al. (2026) manipulate hedge removal and prompt a judge to detect directional changes in certainty. Their experiments establish that both the manipulation and the use of an explicit certainty instruction have precedents. Ramprasad and Wallace (2025) show that factuality metrics can also respond to benign edits. A score decrease after rewriting consequently has several possible interpretations. Mujahid et al. (2026) show that the retrieval context can change the stability of factuality judgments on long documents.
+
+Earlier work on evidence granularity shows that splitting documents and aggregating sentence-level entailment scores changes the accuracy of summary evaluation (Laban et al., 2022; Glover et al., 2022). That finding leaves a different question open. When the evidence already contains the qualified source sentence, does a verifier need the rest of the *original* abstract to accept an overstatement, or would surrounding prose from another paper produce a similar decision?
 
 We study a binary decision for a fixed claim. The verifier first receives the qualified source sentence as evidence and then, in a separate call, the entire abstract containing that sentence. The abstract may contain evidence elsewhere that genuinely licenses a stronger claim. We therefore estimate the change in false acceptance only among claims that the annotator judged unsupported by the full abstract. A second comparison holds the abstract fixed and changes the instruction given to an API judge. Copied and weakened claims measure how often a stricter instruction also rejects claims it should accept.
 
@@ -37,6 +39,12 @@ The two API judges were DeepSeek-V4-Pro and the 8 June 2026 snapshot of Qwen3.7-
 The internally frozen protocol specified six directional tests. **H1** required the full-abstract acceptance rate for human-judged unsupported edits to exceed 70% separately in the modal and lexical hedge groups, for each encoder. **H2** required full-abstract acceptance to exceed sentence-only acceptance by more than 20 percentage points on valid modal edits, for each encoder. **H3** required the strength instruction to reduce acceptance of those modal edits by more than 10 points, for each API judge. H3 also required the observed acceptance losses on identity and weakening controls each to be at most five points. Identity preservation was assessed across all valid documents, and weakening preservation across valid documents with an available matched weakening.
 
 We used a one-sided level of 0.05/6 for each hypothesis. H1 used exact binomial lower bounds. For paired contrasts we recorded changes in both directions and divided their net count by the number of complete pairs, including unchanged decisions. We resampled documents with 10,000 multinomial draws over the three observed differences, using seed 20261124. A constant difference used simultaneous exact bounds on gains and losses. These paired percentile bounds are approximate. Each relevant configuration also had to accept at least 90% of copied claims in the negative-control population, show a paired identity-minus-negation drop of at least 70 points, have at least 150 complete control pairs, and have at most 2% missing planned primary calls. A failed control gate limits interpretation even when an observed endpoint exceeds its threshold.
+
+### Matched donor-text comparison
+
+The protocol proposed an additional evidence condition to interpret the context effect. It was run after the six primary outcomes were known. Before scoring the added condition, we fixed the contrasts and diagnostics in a dated repository commit. We kept each of the 200 modal claims and its qualified source sentence. For each, we preserved the total number of whitespace-delimited words in the abstract and the number preceding the source sentence. The surrounding words came from other SciFact abstracts selected by a document-specific hash. The 3,934-document donor pool excluded both pilots and all reserved documents. We retained the fixed passage even if a donor sentence ended mid-thought. One matched passage per source was scored by each encoder through the same upstream API.
+
+All three presentations were compared on complete document triples. Descriptive 95% intervals used paired document resampling (10,000 draws). We examined the subset where *all three* presentations were scored as one chunk and evaluated the real-minus-donor contrast at fixed score thresholds from 0.1 through 0.9. After inspecting the donor results, we also estimated the between-encoder difference in that contrast, retaining the four decisions for a document together in each bootstrap draw.
 
 ## Confirmatory sample
 
@@ -89,6 +97,16 @@ The generic and strength prompts accepted 154/200 and 106/200 modal edits for De
 | Qwen | identity | 690 | 0 | 0 | 0.0 |
 | Qwen | weaken | 424 | 0 | 0 | 0.0 |
 
+## Replacing the rest of the abstract
+
+All 400 donor-text calls produced scores without clipping. The 200 passages used 285 distinct donor documents. RoBERTa accepted 73/200 claims with the sentence alone, 177/200 with donor text, and 183/200 with the original abstract. DeBERTa accepted 58/200, 142/200 and 175/200 in the same conditions. Replacing the donor words with the original surrounding words moved RoBERTa from rejection to acceptance on 13 documents and in the opposite direction on seven. DeBERTa made those switches on 40 and seven documents. Its real-minus-donor contrast exceeded RoBERTa’s by 13.5 points (post hoc paired 95% interval, 6.5 to 20.5).
+
+![Paired changes in acceptance across three presentations of the same 200 claims](matched-context.png)
+
+**Figure 1. Changes in acceptance with the claim and qualified sentence held fixed.** Points are net differences in binary decisions on the same 200 documents. Bars are descriptive 95% paired intervals. “Donor text” includes the original qualified sentence at its original word offset. The abstract-minus-donor interval for RoBERTa spans zero and allows a modest contribution from the original context.
+
+The rise with donor text remained when the scorer had exactly one chunk in every presentation. On those documents, the donor-minus-sentence difference was 54.2 points for RoBERTa (144 documents, 95% interval 45.1 to 62.5) and 43.5 points for DeBERTa (170 documents, 35.3 to 52.4). Word matching left median absolute differences of 26 and 21.5 model tokens between donor and original presentations. The residual contrast also depended on the decision threshold. At 0.7 it was 13.5 points for RoBERTa and 23.5 for DeBERTa, compared with 3.0 and 16.5 at the official 0.5 cutoff. The supplementary aggregate reports all nine thresholds.
+
 ## Control performance and repeatability
 
 
@@ -121,17 +139,17 @@ The pattern depended on the edit. In full abstracts, RoBERTa accepted 137/137 sc
 
 A checker can reliably distinguish a copied sentence from a negation while accepting a stronger statement about the same result. With RoBERTa, 112 modal claims changed from rejected to accepted when the evidence expanded to the full abstract; only two changed in the opposite direction. DeBERTa had 117 gains and no losses. The human warrant check matters here. A reader judged that none of these 200 modal edits was supported even after seeing the additional evidence. That judgment defines the error being measured.
 
-The comparison estimates the effect of replacing one evidence presentation with the other. Additional related text, changes in token position and the encoder's maximum-over-chunks decision can all contribute. The planned length-matched filler condition belongs to a separate experiment. The current results cannot separate these mechanisms or predict what adding an arbitrary passage would do.
+Other papers supplied enough surrounding text to reproduce much of the original increase at the official threshold. On single-chunk documents there was no choice among chunks, yet donor text still raised acceptance substantially. DeBERTa also distinguished the two long presentations on more documents than RoBERTa in net terms. Word count and source position alone cannot explain that residual difference between presentations. Its possible causes include topic, coherence, tokenization, and the abrupt boundaries introduced by stitching donor words around the source. A donor passage could also happen to contain relevant evidence. Only the original abstracts received human warrant judgments. Multiple independently drawn donors and token-matched coherent passages would be needed to generalize beyond this construction.
 
 The instruction effect also has a practical limit. DeepSeek still accepted 106/200 unsupported modal edits under the strength prompt, compared with 15/200 for Qwen. Both judges continued to accept most generic scope edits. A reduction in modal errors on this benchmark therefore gives little assurance about the handling of every form of generalization. The small acceptance costs on copied and weakened claims are observed costs on these specific controls. Broader noninferiority across legitimate scientific paraphrases remains open.
 
-One annotator determined whether an edit preserved the underlying claim and exceeded the evidence. Tool assistance was used for at least the first annotation return. There is no independent estimate of rater agreement, and a systematic reading of borderline cases could affect both models in the same direction. In particular, changing *may* to *will* can change tense or prediction as well as confidence. Lexical hedge edits span several constructions. The negative controls include some imperfect edits, as the separate audit shows. Their high discrimination establishes sensitivity to this control family.
+One annotator determined whether an edit preserved the underlying claim and exceeded the evidence. Tool assistance was used for at least the first annotation return. There is no independent estimate of rater agreement, and a systematic reading of borderline cases could affect both models in the same direction. A deletion sensitivity calculation indicates the scale of selective mislabeling needed to erase the primary context effect. Even if every removed document were a gain, 88 of 200 modal documents for RoBERTa or 97 for DeBERTa would have to be removed to bring the observed net increase down to the 20-point margin. This bounds the point estimate under selective exclusion. Independent annotation would be needed to measure label error. In particular, changing *may* to *will* can change tense or prediction as well as confidence. Lexical hedge edits span several constructions. The negative controls include some imperfect edits, as the separate audit shows. Their high discrimination establishes sensitivity to this control family.
 
 The two MiniCheck encoders share design choices. The API results apply to the specified prompts, a dated Qwen snapshot and the DeepSeek alias served on the run date. The operating thresholds and hypothesis margins were informed by pilot data; an ambiguous pilot screening rule was resolved after inspecting the pilots. Exclusion of every pilot document separates confirmatory outcomes from that design work. The protocol was frozen internally. The additional evaluation-library workflows, reasoning-enabled judges, and a full sensitivity analysis including ineligible edits would require separate scoring. A representative sample of naturally written claims would be needed to estimate how frequently this error occurs in real citation checking.
 
 ## Conclusion
 
-For two MiniCheck encoders, expanding the evidence from a qualified sentence to its abstract substantially increased acceptance of unsupported modal strengthening. For the two API judges, explicitly asking about evidential strength reduced that error with small observed costs on matched controls. A useful assessment of scientific citation verification must specify both the evidence supplied and how strongly the claim speaks.
+On these scientific modal edits, both encoders accepted many more claims once the qualified sentence was surrounded by prose. Donor text reproduced much of the increase, even on single-chunk inputs. Using the original surroundings yielded a larger residual increase for DeBERTa than for RoBERTa at the official threshold. Evaluations that change evidence granularity can expose this failure by keeping the claim, its source sentence and the surrounding word count fixed. For the two API judges, explicitly checking evidential strength reduced errors on modal statements while preserving acceptance of most copied and weakened claims.
 
 ## Data and code availability
 
@@ -142,6 +160,10 @@ The project repository contains the sampling manifest, model and prompt specific
 The authors report no specific funding and no competing interests.
 
 ## References
+
+Glover, J., Fancellu, F., Jagannathan, V., Gormley, M. R. and Schaaf, T. (2022). Revisiting text decomposition methods for NLI-based factuality scoring of summaries. [GEM](https://aclanthology.org/2022.gem-1.7/)
+
+Laban, P., Schnabel, T., Bennett, P. N. and Hearst, M. A. (2022). SummaC: Re-visiting NLI-based models for inconsistency detection in summarization. [Transactions of the ACL](https://aclanthology.org/2022.tacl-1.10/)
 
 Mujahid, Z. M., Wright, D. and Augenstein, I. (2026). Stress testing factual consistency metrics for long-document summarization. [Revised preprint](https://arxiv.org/abs/2511.07689)
 

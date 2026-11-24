@@ -113,6 +113,7 @@ def compare(left, right, threshold=.5):
 def report(rows):
     primary = {s["id"]:s for s in lines(checked(BASE / "scores.jsonl", PRIMARY))}
     out = {}
+    residual_by_document = {}
     for model in MINICHECK:
         calls = calls_for(rows, model)
         added = lines(OUT / (model + "__filler.jsonl"))
@@ -121,6 +122,7 @@ def report(rows):
         assert all(s["schedule_sha256"] == schedule_hash for s in added)
         filler = {s["id"]:s for s in added}
         d = json.loads((OUT / (model + "_inputs.json")).read_text())
+        residual_by_document[model] = {}
         matched = []
         clipped = Counter()
         for r in rows:
@@ -128,6 +130,7 @@ def report(rows):
             clipped.update(c for c in CONTEXTS if row[c]["p"] is None)
             if all(s["p"] is not None for s in row.values()):
                 matched.append(row)
+                residual_by_document[model][r["doc"]] = int(row["abstract"]["p"] > .5) - int(row["filler"]["p"] > .5)
         single = [r for r in matched if all(r[c]["chunks"]==1 for c in CONTEXTS)]
         effects = {}
         for name, group in (("complete",matched),("all_one_chunk",single)):
@@ -140,7 +143,17 @@ def report(rows):
                           comparisons=effects, threshold_sweep=sweep, filler_minus_real_tokens=dict(
                               median=float(np.median(delta)),min=min(delta),max=max(delta),median_absolute=float(np.median(np.abs(delta)))),
                           patterns=dict(Counter("".join(str(int(r[c]["p"]>.5)) for c in CONTEXTS) for r in matched)))
-    return dict(primary_scores_sha256=PRIMARY, roster_sha256=ROSTER, labels_sha256=LABELS, donor_pool=3934,
+    # Keep the two encoders and both presentations paired within each document.
+    roberta, deberta = (residual_by_document[model] for model in MINICHECK)
+    ids = sorted(roberta.keys() & deberta.keys())
+    values = np.array([deberta[i] - roberta[i] for i in ids])
+    bins = np.arange(-2, 3)
+    counts = np.array([(values == t).sum() for t in bins])
+    draws = np.random.default_rng(20261124).multinomial(len(ids), counts/len(ids), size=10000)
+    interval = np.quantile(draws @ bins / len(ids), [.025,.975])
+    interaction = dict(n=len(ids), difference=float(values.mean()), interval95=interval.tolist(),
+                       counts_at_minus2_through_plus2=counts.tolist(), status="post_hoc_descriptive")
+    return dict(residual_deberta_minus_roberta=interaction, primary_scores_sha256=PRIMARY, roster_sha256=ROSTER, labels_sha256=LABELS, donor_pool=3934,
                 eligible=len(rows), unique_donors=len({i for r in rows for i in r["donors"]}),
                 pattern_order=list(CONTEXTS),models=out)
 
