@@ -1,1 +1,2 @@
 runs/**/*.jsonl -text whitespace=cr-at-eol
+reports/primary_*.json -text whitespace=cr-at-eol

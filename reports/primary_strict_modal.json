@@ -1,0 +1,38 @@
+{
+  "minicheck_roberta_large": {
+    "scheduled": 191,
+    "n": 191,
+    "mean": 0.5654450261780105,
+    "lower": 0.4712041884816754,
+    "gains": 110,
+    "losses": 2,
+    "method": "paired document bootstrap"
+  },
+  "minicheck_deberta_v3_large": {
+    "scheduled": 191,
+    "n": 191,
+    "mean": 0.5916230366492147,
+    "lower": 0.5026178010471204,
+    "gains": 113,
+    "losses": 0,
+    "method": "paired document bootstrap"
+  },
+  "deepseek": {
+    "scheduled": 191,
+    "n": 191,
+    "mean": 0.2356020942408377,
+    "lower": 0.16230366492146597,
+    "gains": 45,
+    "losses": 0,
+    "method": "paired document bootstrap"
+  },
+  "qwen": {
+    "scheduled": 191,
+    "n": 191,
+    "mean": 0.612565445026178,
+    "lower": 0.5287958115183246,
+    "gains": 117,
+    "losses": 0,
+    "method": "paired document bootstrap"
+  }
+}

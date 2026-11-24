@@ -1,0 +1,339 @@
+{
+  "alpha": 0.008333333333333333,
+  "guards": {
+    "minicheck_roberta_large/abstract": {
+      "ok": true,
+      "missing": 3,
+      "scheduled": 2320,
+      "identity": {
+        "scheduled": 427,
+        "n": 427,
+        "k": 424,
+        "mean": 0.9929742388758782,
+        "lower": 0.9760999746491145
+      },
+      "negation": {
+        "scheduled": 427,
+        "n": 427,
+        "mean": 0.990632318501171,
+        "lower": 0.9789227166276346,
+        "gains": 423,
+        "losses": 0,
+        "method": "paired document bootstrap"
+      }
+    },
+    "minicheck_roberta_large/sentence": {
+      "ok": true,
+      "missing": 0,
+      "scheduled": 2320,
+      "identity": {
+        "scheduled": 427,
+        "n": 427,
+        "k": 427,
+        "mean": 1.0,
+        "lower": 0.9888506949224322
+      },
+      "negation": {
+        "scheduled": 427,
+        "n": 427,
+        "mean": 1.0,
+        "lower": 0.9744936003683642,
+        "gains": 427,
+        "losses": 0,
+        "method": "simultaneous exact binomial bounds"
+      }
+    },
+    "minicheck_deberta_v3_large/abstract": {
+      "ok": true,
+      "missing": 0,
+      "scheduled": 2320,
+      "identity": {
+        "scheduled": 427,
+        "n": 427,
+        "k": 426,
+        "mean": 0.9976580796252927,
+        "lower": 0.9840725670146909
+      },
+      "negation": {
+        "scheduled": 427,
+        "n": 427,
+        "mean": 0.955503512880562,
+        "lower": 0.9297423887587822,
+        "gains": 408,
+        "losses": 0,
+        "method": "paired document bootstrap"
+      }
+    },
+    "minicheck_deberta_v3_large/sentence": {
+      "ok": true,
+      "missing": 0,
+      "scheduled": 2320,
+      "identity": {
+        "scheduled": 427,
+        "n": 427,
+        "k": 418,
+        "mean": 0.9789227166276346,
+        "lower": 0.9557790665484945
+      },
+      "negation": {
+        "scheduled": 427,
+        "n": 427,
+        "mean": 0.9765807962529274,
+        "lower": 0.9578454332552693,
+        "gains": 417,
+        "losses": 0,
+        "method": "paired document bootstrap"
+      }
+    },
+    "deepseek/generic": {
+      "ok": true,
+      "missing": 0,
+      "scheduled": 2320,
+      "identity": {
+        "scheduled": 427,
+        "n": 427,
+        "k": 427,
+        "mean": 1.0,
+        "lower": 0.9888506949224322
+      },
+      "negation": {
+        "scheduled": 427,
+        "n": 427,
+        "mean": 1.0,
+        "lower": 0.9744936003683642,
+        "gains": 427,
+        "losses": 0,
+        "method": "simultaneous exact binomial bounds"
+      }
+    },
+    "deepseek/strength": {
+      "ok": true,
+      "missing": 0,
+      "scheduled": 2320,
+      "identity": {
+        "scheduled": 427,
+        "n": 427,
+        "k": 425,
+        "mean": 0.9953161592505855,
+        "lower": 0.979931486308211
+      },
+      "negation": {
+        "scheduled": 427,
+        "n": 427,
+        "mean": 0.9953161592505855,
+        "lower": 0.9859484777517564,
+        "gains": 425,
+        "losses": 0,
+        "method": "paired document bootstrap"
+      }
+    },
+    "qwen/generic": {
+      "ok": true,
+      "missing": 0,
+      "scheduled": 2320,
+      "identity": {
+        "scheduled": 427,
+        "n": 427,
+        "k": 427,
+        "mean": 1.0,
+        "lower": 0.9888506949224322
+      },
+      "negation": {
+        "scheduled": 427,
+        "n": 427,
+        "mean": 0.9976580796252927,
+        "lower": 0.990632318501171,
+        "gains": 426,
+        "losses": 0,
+        "method": "paired document bootstrap"
+      }
+    },
+    "qwen/strength": {
+      "ok": true,
+      "missing": 0,
+      "scheduled": 2320,
+      "identity": {
+        "scheduled": 427,
+        "n": 427,
+        "k": 427,
+        "mean": 1.0,
+        "lower": 0.9888506949224322
+      },
+      "negation": {
+        "scheduled": 427,
+        "n": 427,
+        "mean": 0.9976580796252927,
+        "lower": 0.990632318501171,
+        "gains": 426,
+        "losses": 0,
+        "method": "paired document bootstrap"
+      }
+    }
+  },
+  "hypotheses": {
+    "H1/minicheck_roberta_large": {
+      "rates": {
+        "modal_strengthen": {
+          "scheduled": 200,
+          "n": 200,
+          "k": 183,
+          "mean": 0.915,
+          "lower": 0.8561827744871929
+        },
+        "hedge_adverb_drop": {
+          "scheduled": 150,
+          "n": 150,
+          "k": 149,
+          "mean": 0.9933333333333333,
+          "lower": 0.9552282631056804
+        }
+      },
+      "met": true
+    },
+    "H2/minicheck_roberta_large": {
+      "difference": {
+        "scheduled": 200,
+        "n": 200,
+        "mean": 0.55,
+        "lower": 0.46,
+        "gains": 112,
+        "losses": 2,
+        "method": "paired document bootstrap"
+      },
+      "met": true
+    },
+    "H1/minicheck_deberta_v3_large": {
+      "rates": {
+        "modal_strengthen": {
+          "scheduled": 200,
+          "n": 200,
+          "k": 175,
+          "mean": 0.875,
+          "lower": 0.808571761402972
+        },
+        "hedge_adverb_drop": {
+          "scheduled": 150,
+          "n": 150,
+          "k": 144,
+          "mean": 0.96,
+          "lower": 0.9038227268448747
+        }
+      },
+      "met": true
+    },
+    "H2/minicheck_deberta_v3_large": {
+      "difference": {
+        "scheduled": 200,
+        "n": 200,
+        "mean": 0.585,
+        "lower": 0.5,
+        "gains": 117,
+        "losses": 0,
+        "method": "paired document bootstrap"
+      },
+      "met": true
+    },
+    "H3/deepseek": {
+      "modal": {
+        "scheduled": 200,
+        "n": 200,
+        "mean": 0.24,
+        "lower": 0.17,
+        "gains": 48,
+        "losses": 0,
+        "method": "paired document bootstrap"
+      },
+      "identity": {
+        "scheduled": 690,
+        "n": 690,
+        "mean": 0.002898550724637681,
+        "lower": 0.0,
+        "gains": 2,
+        "losses": 0,
+        "method": "paired document bootstrap"
+      },
+      "weaken": {
+        "scheduled": 424,
+        "n": 424,
+        "mean": 0.007075471698113208,
+        "lower": 0.0,
+        "gains": 3,
+        "losses": 0,
+        "method": "paired document bootstrap"
+      },
+      "met": true
+    },
+    "H3/qwen": {
+      "modal": {
+        "scheduled": 200,
+        "n": 200,
+        "mean": 0.615,
+        "lower": 0.53,
+        "gains": 123,
+        "losses": 0,
+        "method": "paired document bootstrap"
+      },
+      "identity": {
+        "scheduled": 690,
+        "n": 690,
+        "mean": 0.0,
+        "lower": -0.007911493049896245,
+        "gains": 0,
+        "losses": 0,
+        "method": "simultaneous exact binomial bounds"
+      },
+      "weaken": {
+        "scheduled": 424,
+        "n": 424,
+        "mean": 0.0,
+        "lower": -0.012842852795555526,
+        "gains": 0,
+        "losses": 0,
+        "method": "simultaneous exact binomial bounds"
+      },
+      "met": true
+    }
+  },
+  "repeat_counts": {
+    "minicheck_roberta_large/abstract": {
+      "planned": 234,
+      "complete": 234,
+      "agree": 234
+    },
+    "minicheck_roberta_large/sentence": {
+      "planned": 234,
+      "complete": 234,
+      "agree": 234
+    },
+    "minicheck_deberta_v3_large/abstract": {
+      "planned": 234,
+      "complete": 234,
+      "agree": 234
+    },
+    "minicheck_deberta_v3_large/sentence": {
+      "planned": 234,
+      "complete": 234,
+      "agree": 234
+    },
+    "deepseek/generic": {
+      "planned": 234,
+      "complete": 234,
+      "agree": 233
+    },
+    "deepseek/strength": {
+      "planned": 234,
+      "complete": 234,
+      "agree": 232
+    },
+    "qwen/generic": {
+      "planned": 234,
+      "complete": 234,
+      "agree": 232
+    },
+    "qwen/strength": {
+      "planned": 234,
+      "complete": 234,
+      "agree": 233
+    }
+  }
+}

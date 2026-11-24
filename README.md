@@ -1,12 +1,21 @@
-# P10：引用核查器会不会把"说过头"的结论判成"有依据"？
+# Full abstracts increase MiniCheck acceptance of overstated scientific claims
 
-**2026-11-24 · 正式标注已冻结，主实验打分待授权。** 共回收 899 条标注。情态加强在第 216 条达到 200 条有效样本，删除模糊限制词在第 203 条达到 150 条。两轮试点的 339 篇论文均已排除。[结果论文工作稿](paper/manuscript.md) 已记录各类样本的筛选结果。抽样与交付过程见[抽样冻结补充](docs/SAMPLING_FREEZE_20261124.md)和[盲标交付记录](docs/BLIND_RELEASE_20261124.md)。
+Yunjie Guo and Hanqing Yang · Independent Researcher, Suzhou, China
 
-[真实库抽查](reports/NATIVE_LIBRARY_CHECK_20261124.md) 已完成六个流程各 50 对；Phoenix hallucination 复现低于门槛，正式比较排除。推理模式已完成两种评审、两种提示的[成本预试](reports/REASONING_BUDGET_20261124.md)。
+**P10 的正式主实验已完成。** 在 200 条经人工逐条判为整篇摘要仍不足以支持的情态加强主张中，同一句改写从单句证据改为整篇摘要后，MiniCheck-RoBERTa 的接受率从 36.5% 升至 91.5%，MiniCheck-DeBERTa 从 29.0% 升至 87.5%。在证据固定时，显式要求核对断言强度使 DeepSeek、Qwen 的接受率分别下降 24.0 和 61.5 个百分点。六项预定检验及相应对照均达到门槛。本文的结论限于规则生成、经单人审核的 SciFact 编辑。
 
-原始试点材料和盲标工作簿保存在项目本地。复现者可用官方 SciFact 归档和公开句子索引，通过 Windows 项目环境运行 `scripts/restore_pilot_items.py`，恢复抽样程序所需的两份试点索引原件，再按冻结清单复查。以下为项目沿革。
+- [论文 PDF](paper/manuscript.pdf) · [可编辑文稿](paper/manuscript.md)
+- [正式结果、用量与复核记录](reports/PRIMARY_RESULTS_20261124.md) · [六项检验完整导出](reports/primary_decisions.json)
+- [抽样与分析冻结方案](docs/SAMPLING_FREEZE_20261124.md) · [执行及偏离说明](docs/DEVIATIONS.md)
+- [正式运行方法](docs/PRIMARY_EXECUTION.md) · [上游 MiniCheck 实现核对](docs/UPSTREAM_PARITY.md)
 
----
+研究机完成了全部 20,432 条计划记录。每组有 2,320 次首次判定和 234 次复测。标注工作簿、正式逐条标签及模型调用记录保存在研究工作区。仓库提供文稿、冻结规则、代码和聚合结果。复现抽样时可从官方 SciFact 归档和公开句子索引运行 `scripts/restore_pilot_items.py` 恢复两轮试点的排除清单。
+
+<details>
+<summary>早期选题、试点设计与历史运行记录</summary>
+
+以下保留试点阶段的原始说明。当时的样本数、待办项与运行状态均为历史记录。
+
 
 ## 1. 原 P10 的评估
 
@@ -83,3 +92,5 @@ if ($LASTEXITCODE -ne 0) { throw "P10 tests failed ($LASTEXITCODE)" }
 - 预计约 4 小时。标完后用脚本把 Q1=broken 的行排除，并按 Q2/Q3/Q4 重算各项降幅。重算脚本在拿到标注后再写。
 - **2026-11-24：** 第一份标注已回收并重算，见 `runs/AUDIT_RESCORE_20261124.md`。研究者决定不做第二人标注，按单人标注结项（`double_code` 作废，不报一致性）；AUROC 条款有歧义，研究者裁定按全体读、维持 GO（事后解释，见该报告第 6 节）。
 - **正式协议草案：** `docs/PROTOCOL_DRAFT_v0.3_20261124.md`（未冻结；五个待定项已定，规则 v2 已写，旧版留作记录）。
+
+</details>

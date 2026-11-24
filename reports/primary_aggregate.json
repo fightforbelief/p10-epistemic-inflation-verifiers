@@ -1,0 +1,1435 @@
+{
+  "schedule": "7b3def27c6bbec7a600371d42133d2ad7195214cfc0604fd526251f82e5c9c4e",
+  "labels": "d274c5c83f174a2269f9272d85ba14b50aebb282bbd5586ea8d9b3e096a1490c",
+  "roster": "a1cc701bbe406099ae464a2a8de8d0e5acb586e5283f15183b9180452977343d",
+  "counts_by_file": {
+    "minicheck_roberta_large__abstract.jsonl": 2554,
+    "minicheck_roberta_large__sentence.jsonl": 2554,
+    "minicheck_deberta_v3_large__abstract.jsonl": 2554,
+    "minicheck_deberta_v3_large__sentence.jsonl": 2554,
+    "deepseek__generic.jsonl": 2554,
+    "deepseek__strength.jsonl": 2554,
+    "qwen__generic.jsonl": 2554,
+    "qwen__strength.jsonl": 2554
+  },
+  "digests": {
+    "minicheck_roberta_large__abstract.jsonl": "8af374a045867f9d1c1b738b03a6e8089a4ea4c0dc5aa5414edef1ce67b34a2b",
+    "minicheck_roberta_large__sentence.jsonl": "d1f3d5cd5e0ce71bd5d3aef429d68e7208f22c4c3fdd862344d79dac33a1bc3c",
+    "minicheck_deberta_v3_large__abstract.jsonl": "8c3cd4823c4129fa8f03d180c7963003a6e38080991f2d1a358fbee0f7c1914e",
+    "minicheck_deberta_v3_large__sentence.jsonl": "7d6eb34eda8a6f8396af957e58ec4ac6769834c4db3b0bb135d9e584eb328b5f",
+    "deepseek__generic.jsonl": "a77e33af4ff9d1f0764394d9ddae21a218c39a18c3065b2d2580e6f1f73b45cf",
+    "deepseek__strength.jsonl": "65e5a998848f55e39a7eb2e424ee5ebc671d66cf55b0c0a405d5928c3798fed4",
+    "qwen__generic.jsonl": "48e057d330684ec2f892fea2aad9be5b9f96937f18f7c9b17394c6b577744e9a",
+    "qwen__strength.jsonl": "db3c74e3375a68b372a85da6948552b6ddfbe5cf2b37084743df238edb404bef",
+    "scores.jsonl": "6ec6a1d8f733560d8cb9cb5698f155771a75051473aab8835f01b99c4b6fb338",
+    "decisions.json": "ed54746e149539d6b2cb1e7f5cf0a34f4748882f8c89de85eea75521f1c30d01"
+  },
+  "calls": 20432,
+  "first_utc": "2026-11-24T13:54:24.534095+00:00",
+  "last_utc": "2026-11-24T14:03:17.521192+00:00",
+  "model_identifiers": {
+    "minicheck_roberta_large/abstract": {
+      "74c8919647e61ed0f71bc177d94f10930f090068": 2554
+    },
+    "minicheck_roberta_large/sentence": {
+      "74c8919647e61ed0f71bc177d94f10930f090068": 2554
+    },
+    "minicheck_deberta_v3_large/abstract": {
+      "2f2d01a54fa022a7ffadb76260e1ea8bc88c82bb": 2554
+    },
+    "minicheck_deberta_v3_large/sentence": {
+      "2f2d01a54fa022a7ffadb76260e1ea8bc88c82bb": 2554
+    },
+    "deepseek/generic": {
+      "deepseek-v4-pro": 2554
+    },
+    "deepseek/strength": {
+      "deepseek-v4-pro": 2554
+    },
+    "qwen/generic": {
+      "qwen3.7-max-2026-06-08": 2554
+    },
+    "qwen/strength": {
+      "qwen3.7-max-2026-06-08": 2554
+    }
+  },
+  "billing": {
+    "deepseek/generic": {
+      "prompt_tokens": 996456,
+      "completion_tokens": 2554,
+      "prompt_cache_hit_tokens": 511488,
+      "prompt_cache_miss_tokens": 484968,
+      "calls": 2554,
+      "method_logprobs": 2554,
+      "list_cny": 2.293558200000004
+    },
+    "deepseek/strength": {
+      "prompt_tokens": 1167574,
+      "completion_tokens": 2554,
+      "prompt_cache_hit_tokens": 171392,
+      "prompt_cache_miss_tokens": 996182,
+      "calls": 2554,
+      "method_logprobs": 2554,
+      "list_cny": 4.543006799999989
+    },
+    "qwen/generic": {
+      "prompt_tokens": 1114466,
+      "completion_tokens": 2554,
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 0,
+      "calls": 2554,
+      "method_logprobs": 2554,
+      "list_cny": 13.46553600000001
+    },
+    "qwen/strength": {
+      "prompt_tokens": 1288138,
+      "completion_tokens": 2554,
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 0,
+      "calls": 2554,
+      "method_logprobs": 2554,
+      "list_cny": 15.54960000000003
+    }
+  },
+  "clipped_including_repeats": {
+    "minicheck_roberta_large/abstract": 3
+  },
+  "descriptive": {
+    "minicheck_roberta_large/abstract": {
+      "causal_upgrade": {
+        "valid": {
+          "eligible": 145,
+          "n": 144,
+          "k": 138,
+          "ci95": [
+            0.9115171034702688,
+            0.9845578908639127
+          ]
+        },
+        "well_formed": {
+          "eligible": 132,
+          "n": 131,
+          "k": 126,
+          "ci95": [
+            0.9131770134414826,
+            0.987492747174267
+          ]
+        },
+        "matched_weakening": {
+          "n": 100,
+          "mean": -0.01,
+          "interval95": [
+            -0.05,
+            0.02
+          ],
+          "counts_minus_zero_plus": [
+            2,
+            97,
+            1
+          ]
+        }
+      },
+      "hedge_adverb_drop": {
+        "valid": {
+          "eligible": 150,
+          "n": 150,
+          "k": 149,
+          "ci95": [
+            0.9634168322594191,
+            0.9998312288568901
+          ]
+        },
+        "well_formed": {
+          "eligible": 149,
+          "n": 149,
+          "k": 148,
+          "ci95": [
+            0.9631750656291157,
+            0.9998300962608843
+          ]
+        },
+        "matched_weakening": {
+          "n": 91,
+          "mean": -0.03296703296703297,
+          "interval95": [
+            -0.07692307692307693,
+            0.0
+          ],
+          "counts_minus_zero_plus": [
+            3,
+            88,
+            0
+          ]
+        }
+      },
+      "modal_strengthen": {
+        "valid": {
+          "eligible": 200,
+          "n": 200,
+          "k": 183,
+          "ci95": [
+            0.8673948341704486,
+            0.9497040813697418
+          ]
+        },
+        "well_formed": {
+          "eligible": 191,
+          "n": 191,
+          "k": 177,
+          "ci95": [
+            0.8800751798858591,
+            0.9593496406123422
+          ]
+        },
+        "matched_weakening": {
+          "n": 124,
+          "mean": 0.08870967741935484,
+          "interval95": [
+            0.04032258064516129,
+            0.14516129032258066
+          ],
+          "counts_minus_zero_plus": [
+            1,
+            111,
+            12
+          ]
+        }
+      },
+      "quantifier_inflate": {
+        "valid": {
+          "eligible": 58,
+          "n": 58,
+          "k": 0,
+          "ci95": [
+            0.0,
+            0.06162100890391986
+          ]
+        },
+        "well_formed": {
+          "eligible": 54,
+          "n": 54,
+          "k": 0,
+          "ci95": [
+            0.0,
+            0.06603151424442177
+          ]
+        },
+        "matched_weakening": {
+          "n": 40,
+          "mean": 0.975,
+          "interval95": [
+            0.925,
+            1.0
+          ],
+          "counts_minus_zero_plus": [
+            0,
+            1,
+            39
+          ]
+        }
+      },
+      "scope_drop": {
+        "valid": {
+          "eligible": 137,
+          "n": 137,
+          "k": 137,
+          "ci95": [
+            0.9734331489037167,
+            1.0
+          ]
+        },
+        "well_formed": {
+          "eligible": 133,
+          "n": 133,
+          "k": 133,
+          "ci95": [
+            0.9726451737159564,
+            1.0
+          ]
+        },
+        "matched_weakening": {
+          "n": 68,
+          "mean": 0.0,
+          "interval95": [
+            -0.06240910217434892,
+            0.06240910217434892
+          ],
+          "counts_minus_zero_plus": [
+            0,
+            68,
+            0
+          ]
+        }
+      }
+    },
+    "minicheck_roberta_large/sentence": {
+      "causal_upgrade": {
+        "valid": {
+          "eligible": 145,
+          "n": 145,
+          "k": 119,
+          "ci95": [
+            0.7484127393172363,
+            0.8793979212075761
+          ]
+        },
+        "well_formed": {
+          "eligible": 132,
+          "n": 132,
+          "k": 112,
+          "ci95": [
+            0.7757407368834325,
+            0.9049260664288244
+          ]
+        },
+        "matched_weakening": {
+          "n": 101,
+          "mean": -0.5841584158415841,
+          "interval95": [
+            -0.693069306930693,
+            -0.46534653465346537
+          ],
+          "counts_minus_zero_plus": [
+            63,
+            34,
+            4
+          ]
+        }
+      },
+      "hedge_adverb_drop": {
+        "valid": {
+          "eligible": 150,
+          "n": 150,
+          "k": 121,
+          "ci95": [
+            0.7342885185426496,
+            0.8665332141534935
+          ]
+        },
+        "well_formed": {
+          "eligible": 149,
+          "n": 149,
+          "k": 120,
+          "ci95": [
+            0.7325878420351205,
+            0.8656083411391385
+          ]
+        },
+        "matched_weakening": {
+          "n": 91,
+          "mean": -0.45054945054945056,
+          "interval95": [
+            -0.5714285714285714,
+            -0.31868131868131866
+          ],
+          "counts_minus_zero_plus": [
+            46,
+            40,
+            5
+          ]
+        }
+      },
+      "modal_strengthen": {
+        "valid": {
+          "eligible": 200,
+          "n": 200,
+          "k": 73,
+          "ci95": [
+            0.29823342636701244,
+            0.43583402978999597
+          ]
+        },
+        "well_formed": {
+          "eligible": 191,
+          "n": 191,
+          "k": 69,
+          "ci95": [
+            0.2931549626671336,
+            0.43373887202035666
+          ]
+        },
+        "matched_weakening": {
+          "n": 124,
+          "mean": 0.25806451612903225,
+          "interval95": [
+            0.11290322580645161,
+            0.4032258064516129
+          ],
+          "counts_minus_zero_plus": [
+            31,
+            30,
+            63
+          ]
+        }
+      },
+      "quantifier_inflate": {
+        "valid": {
+          "eligible": 58,
+          "n": 58,
+          "k": 0,
+          "ci95": [
+            0.0,
+            0.06162100890391986
+          ]
+        },
+        "well_formed": {
+          "eligible": 54,
+          "n": 54,
+          "k": 0,
+          "ci95": [
+            0.0,
+            0.06603151424442177
+          ]
+        },
+        "matched_weakening": {
+          "n": 40,
+          "mean": 0.35,
+          "interval95": [
+            0.2,
+            0.5
+          ],
+          "counts_minus_zero_plus": [
+            0,
+            26,
+            14
+          ]
+        }
+      },
+      "scope_drop": {
+        "valid": {
+          "eligible": 137,
+          "n": 137,
+          "k": 101,
+          "ci95": [
+            0.6552246919505212,
+            0.808679814447757
+          ]
+        },
+        "well_formed": {
+          "eligible": 133,
+          "n": 133,
+          "k": 97,
+          "ci95": [
+            0.6454693863086441,
+            0.8026740142375596
+          ]
+        },
+        "matched_weakening": {
+          "n": 68,
+          "mean": -0.38235294117647056,
+          "interval95": [
+            -0.5294117647058824,
+            -0.23529411764705882
+          ],
+          "counts_minus_zero_plus": [
+            30,
+            34,
+            4
+          ]
+        }
+      }
+    },
+    "minicheck_deberta_v3_large/abstract": {
+      "causal_upgrade": {
+        "valid": {
+          "eligible": 145,
+          "n": 145,
+          "k": 142,
+          "ci95": [
+            0.9407281405156512,
+            0.9957128024469416
+          ]
+        },
+        "well_formed": {
+          "eligible": 132,
+          "n": 132,
+          "k": 131,
+          "ci95": [
+            0.9585143101888848,
+            0.9998082168171077
+          ]
+        },
+        "matched_weakening": {
+          "n": 101,
+          "mean": 0.019801980198019802,
+          "interval95": [
+            0.0,
+            0.04950495049504951
+          ],
+          "counts_minus_zero_plus": [
+            0,
+            99,
+            2
+          ]
+        }
+      },
+      "hedge_adverb_drop": {
+        "valid": {
+          "eligible": 150,
+          "n": 150,
+          "k": 144,
+          "ci95": [
+            0.9149721852818004,
+            0.9851814788851022
+          ]
+        },
+        "well_formed": {
+          "eligible": 149,
+          "n": 149,
+          "k": 143,
+          "ci95": [
+            0.9144151908319279,
+            0.9850810689868793
+          ]
+        },
+        "matched_weakening": {
+          "n": 91,
+          "mean": 0.03296703296703297,
+          "interval95": [
+            0.0,
+            0.07692307692307693
+          ],
+          "counts_minus_zero_plus": [
+            0,
+            88,
+            3
+          ]
+        }
+      },
+      "modal_strengthen": {
+        "valid": {
+          "eligible": 200,
+          "n": 200,
+          "k": 175,
+          "ci95": [
+            0.8210262499212012,
+            0.9174476581711831
+          ]
+        },
+        "well_formed": {
+          "eligible": 191,
+          "n": 191,
+          "k": 168,
+          "ci95": [
+            0.8248078610882196,
+            0.9221118537353122
+          ]
+        },
+        "matched_weakening": {
+          "n": 124,
+          "mean": 0.12096774193548387,
+          "interval95": [
+            0.06451612903225806,
+            0.1774193548387097
+          ],
+          "counts_minus_zero_plus": [
+            0,
+            109,
+            15
+          ]
+        }
+      },
+      "quantifier_inflate": {
+        "valid": {
+          "eligible": 58,
+          "n": 58,
+          "k": 6,
+          "ci95": [
+            0.038920831922364285,
+            0.21168645779879702
+          ]
+        },
+        "well_formed": {
+          "eligible": 54,
+          "n": 54,
+          "k": 4,
+          "ci95": [
+            0.020550967298094913,
+            0.1789334291660719
+          ]
+        },
+        "matched_weakening": {
+          "n": 40,
+          "mean": 0.9,
+          "interval95": [
+            0.8,
+            0.975
+          ],
+          "counts_minus_zero_plus": [
+            0,
+            4,
+            36
+          ]
+        }
+      },
+      "scope_drop": {
+        "valid": {
+          "eligible": 137,
+          "n": 137,
+          "k": 135,
+          "ci95": [
+            0.9482611024178923,
+            0.9982271335730063
+          ]
+        },
+        "well_formed": {
+          "eligible": 133,
+          "n": 133,
+          "k": 131,
+          "ci95": [
+            0.9467356013821772,
+            0.9981736611688586
+          ]
+        },
+        "matched_weakening": {
+          "n": 68,
+          "mean": 0.014705882352941176,
+          "interval95": [
+            0.0,
+            0.04411764705882353
+          ],
+          "counts_minus_zero_plus": [
+            0,
+            67,
+            1
+          ]
+        }
+      }
+    },
+    "minicheck_deberta_v3_large/sentence": {
+      "causal_upgrade": {
+        "valid": {
+          "eligible": 145,
+          "n": 145,
+          "k": 132,
+          "ci95": [
+            0.8515668166516034,
+            0.9513957046046483
+          ]
+        },
+        "well_formed": {
+          "eligible": 132,
+          "n": 132,
+          "k": 125,
+          "ci95": [
+            0.8937893250914343,
+            0.9784160274597725
+          ]
+        },
+        "matched_weakening": {
+          "n": 101,
+          "mean": 0.0594059405940594,
+          "interval95": [
+            0.019801980198019802,
+            0.10891089108910891
+          ],
+          "counts_minus_zero_plus": [
+            0,
+            95,
+            6
+          ]
+        }
+      },
+      "hedge_adverb_drop": {
+        "valid": {
+          "eligible": 150,
+          "n": 150,
+          "k": 109,
+          "ci95": [
+            0.6479782293185622,
+            0.7961712749018334
+          ]
+        },
+        "well_formed": {
+          "eligible": 149,
+          "n": 149,
+          "k": 109,
+          "ci95": [
+            0.6528639248724694,
+            0.8007748987675422
+          ]
+        },
+        "matched_weakening": {
+          "n": 91,
+          "mean": 0.16483516483516483,
+          "interval95": [
+            0.08791208791208792,
+            0.24175824175824176
+          ],
+          "counts_minus_zero_plus": [
+            0,
+            76,
+            15
+          ]
+        }
+      },
+      "modal_strengthen": {
+        "valid": {
+          "eligible": 200,
+          "n": 200,
+          "k": 58,
+          "ci95": [
+            0.22815698936351236,
+            0.3581874521622902
+          ]
+        },
+        "well_formed": {
+          "eligible": 191,
+          "n": 191,
+          "k": 55,
+          "ci95": [
+            0.22487776456037467,
+            0.35775223353168484
+          ]
+        },
+        "matched_weakening": {
+          "n": 124,
+          "mean": 0.717741935483871,
+          "interval95": [
+            0.6370967741935484,
+            0.7983870967741935
+          ],
+          "counts_minus_zero_plus": [
+            0,
+            35,
+            89
+          ]
+        }
+      },
+      "quantifier_inflate": {
+        "valid": {
+          "eligible": 58,
+          "n": 58,
+          "k": 0,
+          "ci95": [
+            0.0,
+            0.06162100890391986
+          ]
+        },
+        "well_formed": {
+          "eligible": 54,
+          "n": 54,
+          "k": 0,
+          "ci95": [
+            0.0,
+            0.06603151424442177
+          ]
+        },
+        "matched_weakening": {
+          "n": 40,
+          "mean": 0.975,
+          "interval95": [
+            0.925,
+            1.0
+          ],
+          "counts_minus_zero_plus": [
+            0,
+            1,
+            39
+          ]
+        }
+      },
+      "scope_drop": {
+        "valid": {
+          "eligible": 137,
+          "n": 137,
+          "k": 131,
+          "ci95": [
+            0.907113816201648,
+            0.9837606078643059
+          ]
+        },
+        "well_formed": {
+          "eligible": 133,
+          "n": 133,
+          "k": 127,
+          "ci95": [
+            0.904395238574263,
+            0.9832669268109439
+          ]
+        },
+        "matched_weakening": {
+          "n": 68,
+          "mean": 0.0,
+          "interval95": [
+            -0.06240910217434892,
+            0.06240910217434892
+          ],
+          "counts_minus_zero_plus": [
+            0,
+            68,
+            0
+          ]
+        }
+      }
+    },
+    "deepseek/generic": {
+      "causal_upgrade": {
+        "valid": {
+          "eligible": 145,
+          "n": 145,
+          "k": 51,
+          "ci95": [
+            0.27433183068857925,
+            0.43531202720119866
+          ]
+        },
+        "well_formed": {
+          "eligible": 132,
+          "n": 132,
+          "k": 49,
+          "ci95": [
+            0.2887691151086994,
+            0.45957159992877517
+          ]
+        },
+        "matched_weakening": {
+          "n": 101,
+          "mean": 0.5841584158415841,
+          "interval95": [
+            0.48514851485148514,
+            0.6831683168316832
+          ],
+          "counts_minus_zero_plus": [
+            0,
+            42,
+            59
+          ]
+        }
+      },
+      "hedge_adverb_drop": {
+        "valid": {
+          "eligible": 150,
+          "n": 150,
+          "k": 145,
+          "ci95": [
+            0.9239276774626527,
+            0.9890898135310887
+          ]
+        },
+        "well_formed": {
+          "eligible": 149,
+          "n": 149,
+          "k": 144,
+          "ci95": [
+            0.9234286386252978,
+            0.9890159950297767
+          ]
+        },
+        "matched_weakening": {
+          "n": 91,
+          "mean": 0.01098901098901099,
+          "interval95": [
+            0.0,
+            0.03296703296703297
+          ],
+          "counts_minus_zero_plus": [
+            0,
+            90,
+            1
+          ]
+        }
+      },
+      "modal_strengthen": {
+        "valid": {
+          "eligible": 200,
+          "n": 200,
+          "k": 154,
+          "ci95": [
+            0.7053936054340205,
+            0.826419137198409
+          ]
+        },
+        "well_formed": {
+          "eligible": 191,
+          "n": 191,
+          "k": 149,
+          "ci95": [
+            0.7146150066603986,
+            0.8366857328319787
+          ]
+        },
+        "matched_weakening": {
+          "n": 124,
+          "mean": 0.1693548387096774,
+          "interval95": [
+            0.10483870967741936,
+            0.23387096774193547
+          ],
+          "counts_minus_zero_plus": [
+            0,
+            103,
+            21
+          ]
+        }
+      },
+      "quantifier_inflate": {
+        "valid": {
+          "eligible": 58,
+          "n": 58,
+          "k": 0,
+          "ci95": [
+            0.0,
+            0.06162100890391986
+          ]
+        },
+        "well_formed": {
+          "eligible": 54,
+          "n": 54,
+          "k": 0,
+          "ci95": [
+            0.0,
+            0.06603151424442177
+          ]
+        },
+        "matched_weakening": {
+          "n": 40,
+          "mean": 1.0,
+          "interval95": [
+            0.7924735091993684,
+            1.0
+          ],
+          "counts_minus_zero_plus": [
+            0,
+            0,
+            40
+          ]
+        }
+      },
+      "scope_drop": {
+        "valid": {
+          "eligible": 137,
+          "n": 137,
+          "k": 137,
+          "ci95": [
+            0.9734331489037167,
+            1.0
+          ]
+        },
+        "well_formed": {
+          "eligible": 133,
+          "n": 133,
+          "k": 133,
+          "ci95": [
+            0.9726451737159564,
+            1.0
+          ]
+        },
+        "matched_weakening": {
+          "n": 68,
+          "mean": 0.0,
+          "interval95": [
+            -0.06240910217434892,
+            0.06240910217434892
+          ],
+          "counts_minus_zero_plus": [
+            0,
+            68,
+            0
+          ]
+        }
+      }
+    },
+    "deepseek/strength": {
+      "causal_upgrade": {
+        "valid": {
+          "eligible": 145,
+          "n": 145,
+          "k": 28,
+          "ci95": [
+            0.13231778059670252,
+            0.2668512207964754
+          ]
+        },
+        "well_formed": {
+          "eligible": 132,
+          "n": 132,
+          "k": 27,
+          "ci95": [
+            0.13933483690611614,
+            0.28347181898906626
+          ]
+        },
+        "matched_weakening": {
+          "n": 101,
+          "mean": 0.7425742574257426,
+          "interval95": [
+            0.6534653465346535,
+            0.8217821782178217
+          ],
+          "counts_minus_zero_plus": [
+            0,
+            26,
+            75
+          ]
+        }
+      },
+      "hedge_adverb_drop": {
+        "valid": {
+          "eligible": 150,
+          "n": 150,
+          "k": 139,
+          "ci95": [
+            0.8725758378739606,
+            0.9628253852180947
+          ]
+        },
+        "well_formed": {
+          "eligible": 149,
+          "n": 149,
+          "k": 138,
+          "ci95": [
+            0.87174619914791,
+            0.962571942952621
+          ]
+        },
+        "matched_weakening": {
+          "n": 91,
+          "mean": 0.03296703296703297,
+          "interval95": [
+            0.0,
+            0.07692307692307693
+          ],
+          "counts_minus_zero_plus": [
+            0,
+            88,
+            3
+          ]
+        }
+      },
+      "modal_strengthen": {
+        "valid": {
+          "eligible": 200,
+          "n": 200,
+          "k": 106,
+          "ci95": [
+            0.4583305004114758,
+            0.6007670588028847
+          ]
+        },
+        "well_formed": {
+          "eligible": 191,
+          "n": 191,
+          "k": 104,
+          "ci95": [
+            0.47103899630616974,
+            0.6165633836666214
+          ]
+        },
+        "matched_weakening": {
+          "n": 124,
+          "mean": 0.4274193548387097,
+          "interval95": [
+            0.3387096774193548,
+            0.5161290322580645
+          ],
+          "counts_minus_zero_plus": [
+            0,
+            71,
+            53
+          ]
+        }
+      },
+      "quantifier_inflate": {
+        "valid": {
+          "eligible": 58,
+          "n": 58,
+          "k": 0,
+          "ci95": [
+            0.0,
+            0.06162100890391986
+          ]
+        },
+        "well_formed": {
+          "eligible": 54,
+          "n": 54,
+          "k": 0,
+          "ci95": [
+            0.0,
+            0.06603151424442177
+          ]
+        },
+        "matched_weakening": {
+          "n": 40,
+          "mean": 1.0,
+          "interval95": [
+            0.7924735091993684,
+            1.0
+          ],
+          "counts_minus_zero_plus": [
+            0,
+            0,
+            40
+          ]
+        }
+      },
+      "scope_drop": {
+        "valid": {
+          "eligible": 137,
+          "n": 137,
+          "k": 137,
+          "ci95": [
+            0.9734331489037167,
+            1.0
+          ]
+        },
+        "well_formed": {
+          "eligible": 133,
+          "n": 133,
+          "k": 133,
+          "ci95": [
+            0.9726451737159564,
+            1.0
+          ]
+        },
+        "matched_weakening": {
+          "n": 68,
+          "mean": -0.014705882352941176,
+          "interval95": [
+            -0.04411764705882353,
+            0.0
+          ],
+          "counts_minus_zero_plus": [
+            1,
+            67,
+            0
+          ]
+        }
+      }
+    },
+    "qwen/generic": {
+      "causal_upgrade": {
+        "valid": {
+          "eligible": 145,
+          "n": 145,
+          "k": 56,
+          "ci95": [
+            0.30659317204856296,
+            0.47057060440864207
+          ]
+        },
+        "well_formed": {
+          "eligible": 132,
+          "n": 132,
+          "k": 55,
+          "ci95": [
+            0.331524503250206,
+            0.5056330191334627
+          ]
+        },
+        "matched_weakening": {
+          "n": 101,
+          "mean": 0.5742574257425742,
+          "interval95": [
+            0.4752475247524752,
+            0.6732673267326733
+          ],
+          "counts_minus_zero_plus": [
+            0,
+            43,
+            58
+          ]
+        }
+      },
+      "hedge_adverb_drop": {
+        "valid": {
+          "eligible": 150,
+          "n": 150,
+          "k": 134,
+          "ci95": [
+            0.8325636609592525,
+            0.9377894259935297
+          ]
+        },
+        "well_formed": {
+          "eligible": 149,
+          "n": 149,
+          "k": 133,
+          "ci95": [
+            0.8314791649554899,
+            0.9373631464318272
+          ]
+        },
+        "matched_weakening": {
+          "n": 91,
+          "mean": 0.07692307692307693,
+          "interval95": [
+            0.02197802197802198,
+            0.13186813186813187
+          ],
+          "counts_minus_zero_plus": [
+            0,
+            84,
+            7
+          ]
+        }
+      },
+      "modal_strengthen": {
+        "valid": {
+          "eligible": 200,
+          "n": 200,
+          "k": 138,
+          "ci95": [
+            0.6209229594796749,
+            0.7533419625582746
+          ]
+        },
+        "well_formed": {
+          "eligible": 191,
+          "n": 191,
+          "k": 130,
+          "ci95": [
+            0.6094579616334251,
+            0.7460874194340649
+          ]
+        },
+        "matched_weakening": {
+          "n": 124,
+          "mean": 0.27419354838709675,
+          "interval95": [
+            0.1935483870967742,
+            0.3548387096774194
+          ],
+          "counts_minus_zero_plus": [
+            0,
+            90,
+            34
+          ]
+        }
+      },
+      "quantifier_inflate": {
+        "valid": {
+          "eligible": 58,
+          "n": 58,
+          "k": 0,
+          "ci95": [
+            0.0,
+            0.06162100890391986
+          ]
+        },
+        "well_formed": {
+          "eligible": 54,
+          "n": 54,
+          "k": 0,
+          "ci95": [
+            0.0,
+            0.06603151424442177
+          ]
+        },
+        "matched_weakening": {
+          "n": 40,
+          "mean": 1.0,
+          "interval95": [
+            0.7924735091993684,
+            1.0
+          ],
+          "counts_minus_zero_plus": [
+            0,
+            0,
+            40
+          ]
+        }
+      },
+      "scope_drop": {
+        "valid": {
+          "eligible": 137,
+          "n": 137,
+          "k": 136,
+          "ci95": [
+            0.9600031793264455,
+            0.9998152155566152
+          ]
+        },
+        "well_formed": {
+          "eligible": 133,
+          "n": 133,
+          "k": 132,
+          "ci95": [
+            0.9588208849740986,
+            0.9998096586586837
+          ]
+        },
+        "matched_weakening": {
+          "n": 68,
+          "mean": 0.0,
+          "interval95": [
+            -0.04411764705882353,
+            0.04411764705882353
+          ],
+          "counts_minus_zero_plus": [
+            1,
+            66,
+            1
+          ]
+        }
+      }
+    },
+    "qwen/strength": {
+      "causal_upgrade": {
+        "valid": {
+          "eligible": 145,
+          "n": 145,
+          "k": 5,
+          "ci95": [
+            0.011289546517017635,
+            0.07863472988425702
+          ]
+        },
+        "well_formed": {
+          "eligible": 132,
+          "n": 132,
+          "k": 5,
+          "ci95": [
+            0.012411628307678835,
+            0.08618200162686385
+          ]
+        },
+        "matched_weakening": {
+          "n": 101,
+          "mean": 0.9504950495049505,
+          "interval95": [
+            0.900990099009901,
+            0.9900990099009901
+          ],
+          "counts_minus_zero_plus": [
+            0,
+            5,
+            96
+          ]
+        }
+      },
+      "hedge_adverb_drop": {
+        "valid": {
+          "eligible": 150,
+          "n": 150,
+          "k": 60,
+          "ci95": [
+            0.3209630097415329,
+            0.48306869183024526
+          ]
+        },
+        "well_formed": {
+          "eligible": 149,
+          "n": 149,
+          "k": 60,
+          "ci95": [
+            0.32324344161827734,
+            0.48607567486105274
+          ]
+        },
+        "matched_weakening": {
+          "n": 91,
+          "mean": 0.5494505494505495,
+          "interval95": [
+            0.45054945054945056,
+            0.6483516483516484
+          ],
+          "counts_minus_zero_plus": [
+            0,
+            41,
+            50
+          ]
+        }
+      },
+      "modal_strengthen": {
+        "valid": {
+          "eligible": 200,
+          "n": 200,
+          "k": 15,
+          "ci95": [
+            0.04258280373709289,
+            0.12068422539966084
+          ]
+        },
+        "well_formed": {
+          "eligible": 191,
+          "n": 191,
+          "k": 13,
+          "ci95": [
+            0.03673565419356162,
+            0.11357734326442126
+          ]
+        },
+        "matched_weakening": {
+          "n": 124,
+          "mean": 0.8870967741935484,
+          "interval95": [
+            0.8306451612903226,
+            0.9354838709677419
+          ],
+          "counts_minus_zero_plus": [
+            0,
+            14,
+            110
+          ]
+        }
+      },
+      "quantifier_inflate": {
+        "valid": {
+          "eligible": 58,
+          "n": 58,
+          "k": 0,
+          "ci95": [
+            0.0,
+            0.06162100890391986
+          ]
+        },
+        "well_formed": {
+          "eligible": 54,
+          "n": 54,
+          "k": 0,
+          "ci95": [
+            0.0,
+            0.06603151424442177
+          ]
+        },
+        "matched_weakening": {
+          "n": 40,
+          "mean": 1.0,
+          "interval95": [
+            0.7924735091993684,
+            1.0
+          ],
+          "counts_minus_zero_plus": [
+            0,
+            0,
+            40
+          ]
+        }
+      },
+      "scope_drop": {
+        "valid": {
+          "eligible": 137,
+          "n": 137,
+          "k": 129,
+          "ci95": [
+            0.8881827085023141,
+            0.9744552548962558
+          ]
+        },
+        "well_formed": {
+          "eligible": 133,
+          "n": 133,
+          "k": 126,
+          "ci95": [
+            0.8945652714276223,
+            0.9785803197508712
+          ]
+        },
+        "matched_weakening": {
+          "n": 68,
+          "mean": 0.07352941176470588,
+          "interval95": [
+            0.0,
+            0.14705882352941177
+          ],
+          "counts_minus_zero_plus": [
+            1,
+            61,
+            6
+          ]
+        }
+      }
+    }
+  }
+}
